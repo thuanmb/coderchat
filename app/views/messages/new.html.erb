@@ -1,0 +1,26 @@
+<%= render 'shared/chatting_header' %>
+
+<div class="form-container">
+    <%= form_for(@message, url: messages_send_path) do |f| %>
+        <div class="form-group">
+            <%= select_tag 'recipients', options_from_collection_for_select(@message.sender.friends, 'email', 'name'), {prompt: "Please select at least one recipients", class: 'form-control', required: true, multiple: true } %>
+        </div>
+
+        <div class="form-group">
+            <%= f.text_area 'content', class: 'form-control', placeholder: 'Your message' %>
+        </div>
+
+        <div class="form-group">
+            <%= f.file_field :images, multiple: true %>
+        </div>
+
+        <div class="form-group">
+            <%= f.submit 'Send', class: 'btn btn-block'%>
+        </div>
+    <% end %>
+</div>
+
+<%= javascript_tag do%>
+    $(".nav-masthead .nav-link.messages").addClass("active");
+    $(".message-header .btn.new-message").addClass("active");
+<% end %>

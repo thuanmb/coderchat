@@ -1,0 +1,19 @@
+.friend-list {
+	margin-top: 20px;
+	.list-group {
+		.list-group-item {
+			height: 50px;
+
+			span {
+				float: left;
+				margin-left: 15px;
+			}
+
+			a {
+				float: right;
+				margin-right: 15px;
+				margin-top: -5px;
+			}
+		}
+	}
+}

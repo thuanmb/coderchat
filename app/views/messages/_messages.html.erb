@@ -1,0 +1,27 @@
+<div class="message-container container col-md-6 col-xs-12 col-md-offset-3">
+	<% @messages.each do |message| %>
+		<div class="message-item card card-block <%= 'unread' if message.unread %> <%= 'clickable' if @readable %>" data-id="<%= message.id %>">
+			<h4 class="card-title">
+				<% if message.sender && @readable %>
+					<%= message.sender.name %>
+				<% elsif !@readable && message.users %>
+					<%= message.users.join(', ') %>
+				<% end %>
+			</h4>
+
+			<p class="card-text"><%= message.content %></p>
+			
+			<% message.images.each do |image| %>
+				<% extract_urls(image).each do |url| %>
+					<p class="card-text">
+						<img src="<%= url %>" class="message-image">
+					</p>
+				<% end %>
+			<% end %>
+
+			<% if !message.unread && message.read_time %>
+				<p class="card-text"><span class="badge">Read at <%= message.read_time.localtime.strftime("%m/%d/%Y, %I:%M:%S %p") %></span></p>
+			<% end %>
+		</div>
+	<% end %>
+</div>

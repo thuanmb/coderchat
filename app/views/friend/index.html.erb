@@ -1,0 +1,17 @@
+<%= render 'shared/chatting_header' %>
+
+<div class="friend-list container">
+	<div class="list-group">
+		<% @friends.each do |friend| %>
+			<div class="list-group-item">
+				<span><%= friend.name %></span>
+				<%= link_to 'Add', {controller: 'friend', action: 'add', :email => CGI.escape(friend.email)}, {class: 'btn btn-link pull-xs-right'} %>
+			</div>
+		<% end %>
+	</div>
+</div>
+
+<%= javascript_tag do%>
+    $(".nav-masthead .nav-link.messages").addClass("active");
+    $(".message-header .btn.add-friend").addClass("active");
+<% end %>

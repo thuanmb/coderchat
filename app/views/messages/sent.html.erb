@@ -1,0 +1,7 @@
+<%= render 'shared/chatting_header' %>
+<%= render 'messages' %>
+
+<%= javascript_tag do%>
+    $(".nav-masthead .nav-link.messages").addClass("active");
+    $(".message-header .btn.sent-message").addClass("active");
+<% end %>

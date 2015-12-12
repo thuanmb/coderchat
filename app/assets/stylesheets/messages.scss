@@ -1,0 +1,32 @@
+.message-container {
+    margin-top: 20px;
+
+    .unread {
+        border: 1px solid #d9534f;
+    }
+
+    .message-image {
+        width: 100%;
+        border: 1px solid #ccc;
+    }
+}
+
+.message-header {
+    .btn {
+        background-color: #0275d8;
+        border-radius: 10px;
+        color: #fff;
+
+        &:hover {
+            background-color: #0275d8;
+            border-radius: 10px;
+            color: #AAA;
+
+            text-decoration: none;
+        }
+
+        &.active {
+            background-color: #c33;
+        }
+    }
+}

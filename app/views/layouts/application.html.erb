@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Coderchat</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body class="<%= controller_name%> <%= action_name %>">
+    <div class="site-wrapper">
+        <div class="site-wrapper-inner">
+            <div class="cover-container">
+                <div class="masthead clearfix">
+                    <div class="inner">
+                        <h3 class="masthead-brand">Coder Chat</h3>
+                        <nav class="nav nav-masthead">
+                            <%= link_to 'Home', root_path, class: 'nav-link home' %>
+                            <%= link_to 'Messages', messages_path, class: 'nav-link messages' %>
+                            <% if signed_in? %>
+                                <%= link_to 'Logout', logout_path, class: 'nav-link' %>
+                            <% end %>
+                        </nav>
+                        </div>
+                    </div>
+
+                    <div class="content container">
+                        <%= yield %>
+                    </div>
+
+                    <div class="mastfoot">
+                        <div class="inner">
+                        <p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <% if flash[:success] %>
+        <%= javascript_tag do %>
+            $.notify("<%= flash[:success] %>", { allow_dismiss: true, type: 'sucess' });
+        <% end %>
+
+        <% flash.clear() %>
+    <% end %>
+
+    <% if flash[:error] %>
+        <%= javascript_tag do %>
+            $.notify("<%= flash[:error] %>", { allow_dismiss: true, type: 'danger' });
+        <% end %>    
+
+        <% flash.clear() %>
+    <% end %>
+</body>
+</html>
