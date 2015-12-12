@@ -3,8 +3,9 @@ class CreateMessages < ActiveRecord::Migration
     create_table :messages do |t|
       t.text :content
       t.boolean :unread
-      t.references :sender, index: true, foreign_key: true
-      t.references :recipient, index: true, foreign_key: true
+      t.datetime :read_time
+      t.text :images
+      t.belongs_to :sender, index: true, foreign_key: true
 
       t.timestamps null: false
     end

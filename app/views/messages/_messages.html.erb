@@ -5,7 +5,7 @@
 				<% if message.sender && @readable %>
 					<%= message.sender.name %>
 				<% elsif !@readable && message.users %>
-					<%= message.users.join(', ') %>
+					<%= message.users.map {|user| user.name}.join(', ') %>
 				<% end %>
 			</h4>
 

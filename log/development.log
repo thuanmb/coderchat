@@ -24128,3 +24128,974 @@ Started GET "/assets/application.self-a20b78c0f24df8542ae2ec1ad57c95fcb44336e422
 
 
 Started GET "/assets/bg-8510482a5d6dfffce955493c78eb741f2293ed14fe72f7782aa7eb45b95373e0.jpg" for ::1 at 2015-12-13 02:46:50 +0700
+
+
+Started GET "/auth/facebook/callback?code=AQAI7WQWlx91GNQg-OL8pR1vFtbEsayeGgQlBJNyuSzDwJ6r7xCARDHwFIkTzR_P9W_5KJ14dEDxfnu465mor6qdh5BFIGQTXhcEximBcVgdk3Yc7S7K1ToEbGO5drLiMhDYnv5N0iRET0WcmSK-9hFjOYd9qHBQg3YMKzmSEAJrG4RjbnSR9fWys81spR6nZkqZ4gVCsZ68VMVT61aU4KaFaW7-iDEltSnLdZ5ocEmitybadwV4uKYQDJCxE5KXBKcHIb_pAw8FT_wur0u1zjCeYLA56sysXHMrSLhjFKBoeBgDIvP2qhrwLaNkL1QgQY5VeEFyodsC-fsE084MZsyZ" for ::1 at 2015-12-13 03:03:49 +0700
+
+Gem::LoadError (Specified 'sqlite3' for database adapter, but the gem is not loaded. Add `gem 'sqlite3'` to your Gemfile (and ensure its version is at the minimum required by ActiveRecord).):
+  activerecord (4.2.5) lib/active_record/connection_adapters/connection_specification.rb:177:in `rescue in spec'
+  activerecord (4.2.5) lib/active_record/connection_adapters/connection_specification.rb:174:in `spec'
+  activerecord (4.2.5) lib/active_record/connection_handling.rb:50:in `establish_connection'
+  activerecord (4.2.5) lib/active_record/railtie.rb:120:in `block (2 levels) in <class:Railtie>'
+  activesupport (4.2.5) lib/active_support/lazy_load_hooks.rb:38:in `instance_eval'
+  activesupport (4.2.5) lib/active_support/lazy_load_hooks.rb:38:in `execute_hook'
+  activesupport (4.2.5) lib/active_support/lazy_load_hooks.rb:45:in `block in run_load_hooks'
+  activesupport (4.2.5) lib/active_support/lazy_load_hooks.rb:44:in `each'
+  activesupport (4.2.5) lib/active_support/lazy_load_hooks.rb:44:in `run_load_hooks'
+  activerecord (4.2.5) lib/active_record/base.rb:315:in `<module:ActiveRecord>'
+  activerecord (4.2.5) lib/active_record/base.rb:26:in `<top (required)>'
+  activerecord (4.2.5) lib/active_record/migration.rb:383:in `connection'
+  activerecord (4.2.5) lib/active_record/migration.rb:370:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (21.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (16.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (61.6ms)
+
+
+Started GET "/auth/facebook/callback?code=AQAI7WQWlx91GNQg-OL8pR1vFtbEsayeGgQlBJNyuSzDwJ6r7xCARDHwFIkTzR_P9W_5KJ14dEDxfnu465mor6qdh5BFIGQTXhcEximBcVgdk3Yc7S7K1ToEbGO5drLiMhDYnv5N0iRET0WcmSK-9hFjOYd9qHBQg3YMKzmSEAJrG4RjbnSR9fWys81spR6nZkqZ4gVCsZ68VMVT61aU4KaFaW7-iDEltSnLdZ5ocEmitybadwV4uKYQDJCxE5KXBKcHIb_pAw8FT_wur0u1zjCeYLA56sysXHMrSLhjFKBoeBgDIvP2qhrwLaNkL1QgQY5VeEFyodsC-fsE084MZsyZ" for ::1 at 2015-12-13 03:04:53 +0700
+
+Gem::LoadError (Specified 'sqlite3' for database adapter, but the gem is not loaded. Add `gem 'sqlite3'` to your Gemfile (and ensure its version is at the minimum required by ActiveRecord).):
+  activerecord (4.2.5) lib/active_record/connection_adapters/connection_specification.rb:177:in `rescue in spec'
+  activerecord (4.2.5) lib/active_record/connection_adapters/connection_specification.rb:174:in `spec'
+  activerecord (4.2.5) lib/active_record/connection_handling.rb:50:in `establish_connection'
+  activerecord (4.2.5) lib/active_record/railtie.rb:120:in `block (2 levels) in <class:Railtie>'
+  activesupport (4.2.5) lib/active_support/lazy_load_hooks.rb:38:in `instance_eval'
+  activesupport (4.2.5) lib/active_support/lazy_load_hooks.rb:38:in `execute_hook'
+  activesupport (4.2.5) lib/active_support/lazy_load_hooks.rb:45:in `block in run_load_hooks'
+  activesupport (4.2.5) lib/active_support/lazy_load_hooks.rb:44:in `each'
+  activesupport (4.2.5) lib/active_support/lazy_load_hooks.rb:44:in `run_load_hooks'
+  activerecord (4.2.5) lib/active_record/base.rb:315:in `<module:ActiveRecord>'
+  activerecord (4.2.5) lib/active_record/base.rb:26:in `<top (required)>'
+  activerecord (4.2.5) lib/active_record/migration.rb:383:in `connection'
+  activerecord (4.2.5) lib/active_record/migration.rb:370:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (21.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (16.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (61.8ms)
+
+
+Started GET "/auth/facebook/callback?code=AQAI7WQWlx91GNQg-OL8pR1vFtbEsayeGgQlBJNyuSzDwJ6r7xCARDHwFIkTzR_P9W_5KJ14dEDxfnu465mor6qdh5BFIGQTXhcEximBcVgdk3Yc7S7K1ToEbGO5drLiMhDYnv5N0iRET0WcmSK-9hFjOYd9qHBQg3YMKzmSEAJrG4RjbnSR9fWys81spR6nZkqZ4gVCsZ68VMVT61aU4KaFaW7-iDEltSnLdZ5ocEmitybadwV4uKYQDJCxE5KXBKcHIb_pAw8FT_wur0u1zjCeYLA56sysXHMrSLhjFKBoeBgDIvP2qhrwLaNkL1QgQY5VeEFyodsC-fsE084MZsyZ" for ::1 at 2015-12-13 03:04:54 +0700
+
+Gem::LoadError (Specified 'sqlite3' for database adapter, but the gem is not loaded. Add `gem 'sqlite3'` to your Gemfile (and ensure its version is at the minimum required by ActiveRecord).):
+  activerecord (4.2.5) lib/active_record/connection_adapters/connection_specification.rb:177:in `rescue in spec'
+  activerecord (4.2.5) lib/active_record/connection_adapters/connection_specification.rb:174:in `spec'
+  activerecord (4.2.5) lib/active_record/connection_handling.rb:50:in `establish_connection'
+  activerecord (4.2.5) lib/active_record/railtie.rb:120:in `block (2 levels) in <class:Railtie>'
+  activesupport (4.2.5) lib/active_support/lazy_load_hooks.rb:38:in `instance_eval'
+  activesupport (4.2.5) lib/active_support/lazy_load_hooks.rb:38:in `execute_hook'
+  activesupport (4.2.5) lib/active_support/lazy_load_hooks.rb:45:in `block in run_load_hooks'
+  activesupport (4.2.5) lib/active_support/lazy_load_hooks.rb:44:in `each'
+  activesupport (4.2.5) lib/active_support/lazy_load_hooks.rb:44:in `run_load_hooks'
+  activerecord (4.2.5) lib/active_record/base.rb:315:in `<module:ActiveRecord>'
+  activerecord (4.2.5) lib/active_record/base.rb:26:in `<top (required)>'
+  activerecord (4.2.5) lib/active_record/migration.rb:383:in `connection'
+  activerecord (4.2.5) lib/active_record/migration.rb:370:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (11.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (8.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (18.9ms)
+  [1m[36m (14.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL) [0m
+  [1m[35m (2.7ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20151211075555)
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36m (18.8ms)[0m  [1mCREATE TABLE "users" ("id" serial primary key, "email" character varying, "name" character varying, "password_digest" character varying, "image_url" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20151211075555"]]
+  [1m[36m (1.3ms)[0m  [1mCOMMIT[0m
+Migrating to CreateMessages (20151212040111)
+  [1m[35m (0.7ms)[0m  BEGIN
+  [1m[36m (6.7ms)[0m  [1mCREATE TABLE "messages" ("id" serial primary key, "content" text, "unread" boolean, "sender_id" integer, "recipient_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (1.4ms)[0m  CREATE  INDEX  "index_messages_on_sender_id" ON "messages"  ("sender_id")
+  [1m[36m (1.4ms)[0m  [1mCREATE  INDEX  "index_messages_on_recipient_id" ON "messages"  ("recipient_id")[0m
+  [1m[35m (5.0ms)[0m  ALTER TABLE "messages" ADD CONSTRAINT "fk_rails_b8f26a382d"
+FOREIGN KEY ("sender_id")
+  REFERENCES "senders" ("id")
+
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36m (7.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL) [0m
+  [1m[35m (2.3ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20151211075555)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (12.9ms)[0m  [1mCREATE TABLE "users" ("id" serial primary key, "email" character varying, "name" character varying, "password_digest" character varying, "image_url" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20151211075555"]]
+  [1m[36m (1.2ms)[0m  [1mCOMMIT[0m
+Migrating to CreateMessages (20151212040111)
+  [1m[35m (0.8ms)[0m  BEGIN
+  [1m[36m (7.1ms)[0m  [1mCREATE TABLE "messages" ("id" serial primary key, "content" text, "unread" boolean, "sender_id" integer, "recipient_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (1.7ms)[0m  CREATE  INDEX  "index_messages_on_sender_id" ON "messages"  ("sender_id")
+  [1m[36m (1.2ms)[0m  [1mCREATE  INDEX  "index_messages_on_recipient_id" ON "messages"  ("recipient_id")[0m
+  [1m[35m (2.1ms)[0m  ALTER TABLE "messages" ADD CONSTRAINT "fk_rails_b8f26a382d"
+FOREIGN KEY ("sender_id")
+  REFERENCES "senders" ("id")
+
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateMessages (20151212040111)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (12.2ms)[0m  [1mCREATE TABLE "messages" ("id" serial primary key, "content" text, "unread" boolean, "read_time" timestamp, "images" text, "sender_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (2.5ms)[0m  CREATE  INDEX  "index_messages_on_sender_id" ON "messages"  ("sender_id")
+  [1m[36m (3.1ms)[0m  [1mALTER TABLE "messages" ADD CONSTRAINT "fk_rails_b8f26a382d"
+FOREIGN KEY ("sender_id")
+  REFERENCES "senders" ("id")
+[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateMessages (20151212040111)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (13.9ms)[0m  [1mCREATE TABLE "messages" ("id" serial primary key, "content" text, "unread" boolean, "read_time" timestamp, "images" text, "sender_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (1.8ms)[0m  CREATE  INDEX  "index_messages_on_sender_id" ON "messages"  ("sender_id")
+  [1m[36m (2.5ms)[0m  [1mALTER TABLE "messages" ADD CONSTRAINT "fk_rails_b8f26a382d"
+FOREIGN KEY ("sender_id")
+  REFERENCES "senders" ("id")
+[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateMessages (20151212040111)
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (6.8ms)[0m  [1mCREATE TABLE "messages" ("id" serial primary key, "content" text, "unread" boolean, "read_time" timestamp, "images" text, "sender_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (1.5ms)[0m  CREATE  INDEX  "index_messages_on_sender_id" ON "messages"  ("sender_id")
+  [1m[36m (2.0ms)[0m  [1mALTER TABLE "messages" ADD CONSTRAINT "fk_rails_b8f26a382d"
+FOREIGN KEY ("sender_id")
+  REFERENCES "senders" ("id")
+[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (121.1ms)[0m  [1mDROP DATABASE IF EXISTS "coderchat_development"[0m
+  [1m[35m (120.0ms)[0m  DROP DATABASE IF EXISTS "coderchat_test"
+  [1m[36m (502.9ms)[0m  [1mCREATE DATABASE "coderchat_development" ENCODING = 'unicode'[0m
+  [1m[35m (376.8ms)[0m  CREATE DATABASE "coderchat_test" ENCODING = 'unicode'
+  [1m[36m (8.1ms)[0m  [1mCREATE TABLE "friendships" ("user_id" integer, "friend_id" integer) [0m
+  [1m[35m (10.4ms)[0m  CREATE TABLE "messages" ("id" serial primary key, "content" text, "unread" boolean, "sender_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "read_time" timestamp, "images" text) 
+  [1m[36m (1.5ms)[0m  [1mCREATE  INDEX  "index_messages_on_sender_id" ON "messages"  ("sender_id")[0m
+  [1m[35m (0.7ms)[0m  CREATE TABLE "messages_users" ("user_id" integer, "message_id" integer) 
+  [1m[36m (1.7ms)[0m  [1mCREATE  INDEX  "index_messages_users_on_message_id" ON "messages_users"  ("message_id")[0m
+  [1m[35m (2.4ms)[0m  CREATE  INDEX  "index_messages_users_on_user_id" ON "messages_users"  ("user_id")
+  [1m[36m (9.0ms)[0m  [1mCREATE TABLE "users" ("id" serial primary key, "email" character varying, "name" character varying, "password_digest" character varying, "image_url" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "uid" character varying, "oauth_token" character varying, "oauth_expires_at" timestamp) [0m
+  [1m[35m (2.3ms)[0m  CREATE TABLE "schema_migrations" ("version" character varying NOT NULL) 
+  [1m[36m (1.8ms)[0m  [1mCREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")[0m
+  [1m[35m (0.3ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (0.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20151212192714')[0m
+  [1m[35m (1.0ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20151211075555')
+  [1m[36m (0.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20151212040111')[0m
+  [1m[35m (0.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20151212125229')
+  [1m[36m (0.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20151212172523')[0m
+  [1m[35m (4.7ms)[0m  CREATE TABLE "friendships" ("user_id" integer, "friend_id" integer) 
+  [1m[36m (9.4ms)[0m  [1mCREATE TABLE "messages" ("id" serial primary key, "content" text, "unread" boolean, "sender_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "read_time" timestamp, "images" text) [0m
+  [1m[35m (2.6ms)[0m  CREATE  INDEX  "index_messages_on_sender_id" ON "messages"  ("sender_id")
+  [1m[36m (0.8ms)[0m  [1mCREATE TABLE "messages_users" ("user_id" integer, "message_id" integer) [0m
+  [1m[35m (2.5ms)[0m  CREATE  INDEX  "index_messages_users_on_message_id" ON "messages_users"  ("message_id")
+  [1m[36m (1.4ms)[0m  [1mCREATE  INDEX  "index_messages_users_on_user_id" ON "messages_users"  ("user_id")[0m
+  [1m[35m (8.5ms)[0m  CREATE TABLE "users" ("id" serial primary key, "email" character varying, "name" character varying, "password_digest" character varying, "image_url" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "uid" character varying, "oauth_token" character varying, "oauth_expires_at" timestamp) 
+  [1m[36m (3.5ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL) [0m
+  [1m[35m (1.7ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36m (0.4ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (0.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20151212192714')
+  [1m[36m (0.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20151211075555')[0m
+  [1m[35m (0.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20151212040111')
+  [1m[36m (0.2ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20151212125229')[0m
+  [1m[35m (0.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20151212172523')
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (3.9ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'friendships'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (2.8ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'messages'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36m (2.5ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'messages_users'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[35m (2.4ms)[0m  SELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'users'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+
+  [1m[36m (119.7ms)[0m  [1mDROP DATABASE IF EXISTS "coderchat_development"[0m
+  [1m[35m (119.6ms)[0m  DROP DATABASE IF EXISTS "coderchat_test"
+  [1m[36m (381.2ms)[0m  [1mCREATE DATABASE "coderchat_development" ENCODING = 'unicode'[0m
+  [1m[35m (376.9ms)[0m  CREATE DATABASE "coderchat_test" ENCODING = 'unicode'
+  [1m[36mSQL (3.3ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (7.3ms)[0m  CREATE TABLE "friendships" ("user_id" integer, "friend_id" integer) 
+  [1m[36m (8.6ms)[0m  [1mCREATE TABLE "messages" ("id" serial primary key, "content" text, "unread" boolean, "sender_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "read_time" timestamp, "images" text) [0m
+  [1m[35m (1.5ms)[0m  CREATE  INDEX  "index_messages_on_sender_id" ON "messages" USING btree ("sender_id")
+  [1m[36m (0.6ms)[0m  [1mCREATE TABLE "messages_users" ("user_id" integer, "message_id" integer) [0m
+  [1m[35m (1.4ms)[0m  CREATE  INDEX  "index_messages_users_on_message_id" ON "messages_users" USING btree ("message_id")
+  [1m[36m (2.0ms)[0m  [1mCREATE  INDEX  "index_messages_users_on_user_id" ON "messages_users" USING btree ("user_id")[0m
+  [1m[35m (7.4ms)[0m  CREATE TABLE "users" ("id" serial primary key, "email" character varying, "name" character varying, "password_digest" character varying, "image_url" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "uid" character varying, "oauth_token" character varying, "oauth_expires_at" timestamp) 
+  [1m[36m (5.2ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL) [0m
+  [1m[35m (1.9ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (0.4ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20151212192714')
+  [1m[36m (0.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20151211075555')[0m
+  [1m[35m (0.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20151212040111')
+  [1m[36m (0.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20151212125229')[0m
+  [1m[35m (0.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20151212172523')
+  [1m[36mSQL (0.2ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (9.4ms)[0m  CREATE TABLE "friendships" ("user_id" integer, "friend_id" integer) 
+  [1m[36m (9.0ms)[0m  [1mCREATE TABLE "messages" ("id" serial primary key, "content" text, "unread" boolean, "sender_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "read_time" timestamp, "images" text) [0m
+  [1m[35m (2.1ms)[0m  CREATE  INDEX  "index_messages_on_sender_id" ON "messages" USING btree ("sender_id")
+  [1m[36m (0.9ms)[0m  [1mCREATE TABLE "messages_users" ("user_id" integer, "message_id" integer) [0m
+  [1m[35m (1.4ms)[0m  CREATE  INDEX  "index_messages_users_on_message_id" ON "messages_users" USING btree ("message_id")
+  [1m[36m (1.3ms)[0m  [1mCREATE  INDEX  "index_messages_users_on_user_id" ON "messages_users" USING btree ("user_id")[0m
+  [1m[35m (6.8ms)[0m  CREATE TABLE "users" ("id" serial primary key, "email" character varying, "name" character varying, "password_digest" character varying, "image_url" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "uid" character varying, "oauth_token" character varying, "oauth_expires_at" timestamp) 
+  [1m[36m (2.6ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL) [0m
+  [1m[35m (1.7ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (0.4ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20151212192714')
+  [1m[36m (0.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20151211075555')[0m
+  [1m[35m (0.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20151212040111')
+  [1m[36m (0.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20151212125229')[0m
+  [1m[35m (0.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20151212172523')
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for ::1 at 2015-12-13 03:22:19 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.0ms)
+  [1m[35mUser Load (1.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 500 Internal Server Error in 589ms (ActiveRecord: 4.9ms)
+
+ActiveRecord::RecordNotFound (Couldn't find User with 'id'=2):
+  app/controllers/application_controller.rb:11:in `current_user'
+  app/controllers/application_controller.rb:15:in `signed_in?'
+  app/views/layouts/application.html.erb:19:in `_app_views_layouts_application_html_erb__1926616522806044917_70186445845300'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (21.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (17.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (58.8ms)
+
+
+Started GET "/" for ::1 at 2015-12-13 03:22:34 +0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 60ms (Views: 60.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/friend.self-5fcb76d203bb2b8afe85f681f6c4915b387066718584c24b3fef191d9ee839ab.css?body=1" for ::1 at 2015-12-13 03:22:34 +0700
+
+
+Started GET "/assets/messages.self-d7f76c7131a7cd50706f3499c58148bad81f880af7e01edb42fa3efa6bb72592.css?body=1" for ::1 at 2015-12-13 03:22:34 +0700
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-12-13 03:22:34 +0700
+
+
+Started GET "/assets/user.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-12-13 03:22:34 +0700
+
+
+Started GET "/assets/application.self-1afa887b79266ce150aeb1a587d5e397f619313a6cd1dd146835dd28fce42be2.css?body=1" for ::1 at 2015-12-13 03:22:34 +0700
+
+
+Started GET "/assets/welcome.self-89fb085caac9978be461f844f8c8bfb5d5002dede3cada09e6bb50e2b9eff44b.css?body=1" for ::1 at 2015-12-13 03:22:34 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-13 03:22:34 +0700
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-12-13 03:22:34 +0700
+
+
+Started GET "/assets/bootstrap.self-fe486684af4771e52c8d79a0f9b92ff72ec8b3d21774a3f8d5251ccac2b5f828.js?body=1" for ::1 at 2015-12-13 03:22:34 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-13 03:22:34 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-13 03:22:34 +0700
+
+
+Started GET "/assets/bootstrap-notify.min.self-b5f7366157c64f1d775bb4c74a37e6806463d55b832621f1e195b2c00c7a99be.js?body=1" for ::1 at 2015-12-13 03:22:34 +0700
+
+
+Started GET "/assets/facebook.self-42422c8ea0fdd92310aba93920245d37ffefaac950745a95435b58bfa4ec0eec.js?body=1" for ::1 at 2015-12-13 03:22:34 +0700
+
+
+Started GET "/assets/friend.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-13 03:22:34 +0700
+
+
+Started GET "/assets/messages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-13 03:22:34 +0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-13 03:22:34 +0700
+
+
+Started GET "/assets/user.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-13 03:22:34 +0700
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-13 03:22:34 +0700
+
+
+Started GET "/assets/application.self-a20b78c0f24df8542ae2ec1ad57c95fcb44336e42253f7117d91378b8b8d517a.js?body=1" for ::1 at 2015-12-13 03:22:34 +0700
+
+
+Started GET "/assets/bg-8510482a5d6dfffce955493c78eb741f2293ed14fe72f7782aa7eb45b95373e0.jpg" for ::1 at 2015-12-13 03:22:34 +0700
+
+
+Started GET "/signup" for ::1 at 2015-12-13 03:22:39 +0700
+Processing by UserController#new as HTML
+  Rendered user/_form.html.erb (34.3ms)
+  Rendered user/new.html.erb within layouts/application (36.0ms)
+Completed 200 OK in 97ms (Views: 96.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/signup" for ::1 at 2015-12-13 03:22:46 +0700
+Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Tf7fAILA4d5ayDtN0hZxm0/tqei9U3pphgMPu8OUqMJFN0YHErbCRKjDNm45KpI+qBK16YbshwWxa3KPmP6Obg==", "user"=>{"email"=>"a@a.com", "name"=>"A", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign Up"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (1.8ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'a@a.com' LIMIT 1
+  [1m[36mSQL (1.2ms)[0m  [1mINSERT INTO "users" ("email", "name", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["email", "a@a.com"], ["name", "A"], ["password_digest", "$2a$10$HtUAJ4Kvyg6kgxAtePtn3ubzLThvJc7wZPUbNfb7Y79xlqx7S3XiO"], ["created_at", "2015-12-12 20:22:46.217271"], ["updated_at", "2015-12-12 20:22:46.217271"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+Redirected to http://localhost:3000/messages
+Completed 302 Found in 81ms (ActiveRecord: 3.6ms)
+
+
+Started GET "/messages" for ::1 at 2015-12-13 03:22:46 +0700
+Processing by MessagesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered shared/_chatting_header.html.erb (0.7ms)
+  [1m[35mMessage Load (3.5ms)[0m  SELECT "messages".* FROM "messages" INNER JOIN "messages_users" ON "messages"."id" = "messages_users"."message_id" WHERE "messages_users"."user_id" = $1  ORDER BY "messages"."unread" DESC, "messages"."created_at" DESC  [["user_id", 1]]
+  Rendered messages/_messages.html.erb (7.9ms)
+  Rendered messages/index.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 189ms (Views: 110.9ms | ActiveRecord: 6.5ms)
+
+
+Started GET "/" for ::1 at 2015-12-13 03:22:57 +0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.7ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 63ms (Views: 61.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/signup" for ::1 at 2015-12-13 03:22:58 +0700
+Processing by UserController#new as HTML
+  Rendered user/_form.html.erb (0.8ms)
+  Rendered user/new.html.erb within layouts/application (1.3ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 113ms (Views: 112.6ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/signup" for ::1 at 2015-12-13 03:23:03 +0700
+Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QWRw5r8GTDWD9Yj5BIhTcS5RSEhdewjs4whRJ7zWjsNJrenhL3Bvr3H+hdrvtLDUya5USWbE9YDUYCwT57yobw==", "user"=>{"email"=>"b@b.com", "name"=>"B", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign Up"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'b@b.com' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("email", "name", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["email", "b@b.com"], ["name", "B"], ["password_digest", "$2a$10$ZWz3fV4zjTX2MgwUoet8BuyqVA7zUYbaED1u2WFqnX9jyUTzvi1/a"], ["created_at", "2015-12-12 20:23:04.049958"], ["updated_at", "2015-12-12 20:23:04.049958"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+Redirected to http://localhost:3000/messages
+Completed 302 Found in 61ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/messages" for ::1 at 2015-12-13 03:23:04 +0700
+Processing by MessagesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered shared/_chatting_header.html.erb (0.2ms)
+  [1m[35mMessage Load (0.3ms)[0m  SELECT "messages".* FROM "messages" INNER JOIN "messages_users" ON "messages"."id" = "messages_users"."message_id" WHERE "messages_users"."user_id" = $1  ORDER BY "messages"."unread" DESC, "messages"."created_at" DESC  [["user_id", 2]]
+  Rendered messages/_messages.html.erb (0.8ms)
+  Rendered messages/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 60ms (Views: 58.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2015-12-13 03:23:05 +0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 117ms (Views: 116.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/signup" for ::1 at 2015-12-13 03:23:06 +0700
+Processing by UserController#new as HTML
+  Rendered user/_form.html.erb (0.7ms)
+  Rendered user/new.html.erb within layouts/application (1.3ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 66ms (Views: 65.7ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/signup" for ::1 at 2015-12-13 03:23:13 +0700
+Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gQmfnKv2o3Nh5rSKRsnC+oNU9A5zxVo/K74kfFvVCHCJwAabO4CA6ZPtuamt9SFfZKvoD0h6p1Mc1llIAL8u3A==", "user"=>{"email"=>"c@c.com", "name"=>"C", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign Up"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'c@c.com' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("email", "name", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["email", "c@c.com"], ["name", "C"], ["password_digest", "$2a$10$fo2z8LgiwNQW8CVXT0zPAOuZt459DTPimnBIXArb6NLbQ1oEJUVrC"], ["created_at", "2015-12-12 20:23:13.601304"], ["updated_at", "2015-12-12 20:23:13.601304"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+Redirected to http://localhost:3000/messages
+Completed 302 Found in 61ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/messages" for ::1 at 2015-12-13 03:23:13 +0700
+Processing by MessagesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  Rendered shared/_chatting_header.html.erb (0.2ms)
+  [1m[35mMessage Load (0.4ms)[0m  SELECT "messages".* FROM "messages" INNER JOIN "messages_users" ON "messages"."id" = "messages_users"."message_id" WHERE "messages_users"."user_id" = $1  ORDER BY "messages"."unread" DESC, "messages"."created_at" DESC  [["user_id", 3]]
+  Rendered messages/_messages.html.erb (0.9ms)
+  Rendered messages/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 115ms (Views: 112.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/friend/index" for ::1 at 2015-12-13 03:23:20 +0700
+Processing by FriendController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" INNER JOIN "friendships" ON "users"."id" = "friendships"."friend_id" WHERE "friendships"."user_id" = $1  [["user_id", 3]]
+  Rendered shared/_chatting_header.html.erb (0.5ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE ("users"."id" != 3)[0m
+  Rendered friend/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 121ms (Views: 114.1ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/friend/add?email=a%2540a.com" for ::1 at 2015-12-13 03:23:21 +0700
+Processing by FriendController#add as HTML
+  Parameters: {"email"=>"a%40a.com"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1[0m  [["email", "a@a.com"]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "friendships" ("user_id", "friend_id") VALUES ($1, $2)[0m  [["user_id", 3], ["friend_id", 1]]
+  [1m[35m (0.3ms)[0m  COMMIT
+Redirected to http://localhost:3000/friend/index
+Completed 302 Found in 12ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/friend/index" for ::1 at 2015-12-13 03:23:21 +0700
+Processing by FriendController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" INNER JOIN "friendships" ON "users"."id" = "friendships"."friend_id" WHERE "friendships"."user_id" = $1  [["user_id", 3]]
+  Rendered shared/_chatting_header.html.erb (0.2ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE ("users"."id" NOT IN (1, 3))[0m
+  Rendered friend/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 64ms (Views: 61.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/friend/add?email=b%2540b.com" for ::1 at 2015-12-13 03:23:22 +0700
+Processing by FriendController#add as HTML
+  Parameters: {"email"=>"b%40b.com"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1[0m  [["email", "b@b.com"]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "friendships" ("user_id", "friend_id") VALUES ($1, $2)[0m  [["user_id", 3], ["friend_id", 2]]
+  [1m[35m (0.7ms)[0m  COMMIT
+Redirected to http://localhost:3000/friend/index
+Completed 302 Found in 5ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/friend/index" for ::1 at 2015-12-13 03:23:22 +0700
+Processing by FriendController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" INNER JOIN "friendships" ON "users"."id" = "friendships"."friend_id" WHERE "friendships"."user_id" = $1  [["user_id", 3]]
+  Rendered shared/_chatting_header.html.erb (0.2ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE ("users"."id" NOT IN (1, 2, 3))[0m
+  Rendered friend/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 110ms (Views: 107.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/messages/sent" for ::1 at 2015-12-13 03:23:23 +0700
+Processing by MessagesController#sent as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  Rendered shared/_chatting_header.html.erb (0.2ms)
+  [1m[36mMessage Load (0.2ms)[0m  [1mSELECT "messages".* FROM "messages" WHERE "messages"."sender_id" = $1  ORDER BY "messages"."unread" DESC, "messages"."created_at" DESC[0m  [["sender_id", 3]]
+  Rendered messages/_messages.html.erb (1.2ms)
+  Rendered messages/sent.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 67ms (Views: 65.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/messages/new" for ::1 at 2015-12-13 03:23:23 +0700
+Processing by MessagesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  Rendered shared/_chatting_header.html.erb (0.3ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users"."id" = "friendships"."friend_id" WHERE "friendships"."user_id" = $1[0m  [["user_id", 3]]
+  Rendered messages/new.html.erb within layouts/application (57.8ms)
+Completed 200 OK in 124ms (Views: 118.1ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/messages/send" for ::1 at 2015-12-13 03:23:37 +0700
+Processing by MessagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8N4pg+puysoh3WHBWLCdlIneSMOnRErY4Ep2NjpuDQT4F7CEehjpUNPWbOKzjH4xbiFUwpz7t7TXIgsCYQQrqA==", "recipients"=>["a@a.com", "b@b.com"], "message"=>{"content"=>"new messages", "images"=>[#<ActionDispatch::Http::UploadedFile:0x007fab223cbf48 @tempfile=#<Tempfile:/var/folders/m6/yw_5xq6s5t19gzrdvvt_w9h80000gp/T/RackMultipart20151213-76734-1odmdw7.png>, @original_filename="Screen Shot 2015-12-10 at 2.23.31 PM.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"message[images][]\"; filename=\"Screen Shot 2015-12-10 at 2.23.31 PM.png\"\r\nContent-Type: image/png\r\n">]}, "commit"=>"Send"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (2.3ms)[0m  INSERT INTO "messages" ("content", "images", "unread", "sender_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["content", "new messages"], ["images", "[\"Screen_Shot_2015-12-10_at_2.23.31_PM.png\"]"], ["unread", "t"], ["sender_id", 3], ["created_at", "2015-12-12 20:23:37.658997"], ["updated_at", "2015-12-12 20:23:37.658997"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = $1  [["email", "a@a.com"]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = $1[0m  [["email", "b@b.com"]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "messages_users" ("message_id", "user_id") VALUES ($1, $2)[0m  [["message_id", 1], ["user_id", 1]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "messages_users" ("message_id", "user_id") VALUES ($1, $2)  [["message_id", 1], ["user_id", 2]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/messages/new
+Completed 302 Found in 66ms (ActiveRecord: 5.1ms)
+
+
+Started GET "/messages/new" for ::1 at 2015-12-13 03:23:37 +0700
+Processing by MessagesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  Rendered shared/_chatting_header.html.erb (0.3ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users"."id" = "friendships"."friend_id" WHERE "friendships"."user_id" = $1[0m  [["user_id", 3]]
+  Rendered messages/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 61ms (Views: 59.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/messages/sent" for ::1 at 2015-12-13 03:23:39 +0700
+Processing by MessagesController#sent as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  Rendered shared/_chatting_header.html.erb (0.2ms)
+  [1m[36mMessage Load (0.2ms)[0m  [1mSELECT "messages".* FROM "messages" WHERE "messages"."sender_id" = $1  ORDER BY "messages"."unread" DESC, "messages"."created_at" DESC[0m  [["sender_id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" INNER JOIN "messages_users" ON "users"."id" = "messages_users"."user_id" WHERE "messages_users"."message_id" = $1[0m  [["message_id", 1]]
+  Rendered messages/_messages.html.erb (2.9ms)
+  Rendered messages/sent.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 112ms (Views: 110.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/messages/sent" for ::1 at 2015-12-13 03:24:30 +0700
+Processing by MessagesController#sent as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  Rendered shared/_chatting_header.html.erb (0.3ms)
+  [1m[36mMessage Load (0.9ms)[0m  [1mSELECT "messages".* FROM "messages" WHERE "messages"."sender_id" = $1  ORDER BY "messages"."unread" DESC, "messages"."created_at" DESC[0m  [["sender_id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" INNER JOIN "messages_users" ON "users"."id" = "messages_users"."user_id" WHERE "messages_users"."message_id" = $1[0m  [["message_id", 1]]
+  Rendered messages/_messages.html.erb (5.8ms)
+  Rendered messages/sent.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 66ms (Views: 62.4ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/friend.self-5fcb76d203bb2b8afe85f681f6c4915b387066718584c24b3fef191d9ee839ab.css?body=1" for ::1 at 2015-12-13 03:24:30 +0700
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-12-13 03:24:30 +0700
+
+
+Started GET "/assets/messages.self-d7f76c7131a7cd50706f3499c58148bad81f880af7e01edb42fa3efa6bb72592.css?body=1" for ::1 at 2015-12-13 03:24:30 +0700
+
+
+Started GET "/assets/welcome.self-89fb085caac9978be461f844f8c8bfb5d5002dede3cada09e6bb50e2b9eff44b.css?body=1" for ::1 at 2015-12-13 03:24:30 +0700
+
+
+Started GET "/assets/user.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-12-13 03:24:30 +0700
+
+
+Started GET "/assets/application.self-1afa887b79266ce150aeb1a587d5e397f619313a6cd1dd146835dd28fce42be2.css?body=1" for ::1 at 2015-12-13 03:24:30 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-13 03:24:30 +0700
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-12-13 03:24:30 +0700
+
+
+Started GET "/assets/bootstrap.self-fe486684af4771e52c8d79a0f9b92ff72ec8b3d21774a3f8d5251ccac2b5f828.js?body=1" for ::1 at 2015-12-13 03:24:30 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-13 03:24:30 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-13 03:24:30 +0700
+
+
+Started GET "/assets/bootstrap-notify.min.self-b5f7366157c64f1d775bb4c74a37e6806463d55b832621f1e195b2c00c7a99be.js?body=1" for ::1 at 2015-12-13 03:24:30 +0700
+
+
+Started GET "/assets/facebook.self-42422c8ea0fdd92310aba93920245d37ffefaac950745a95435b58bfa4ec0eec.js?body=1" for ::1 at 2015-12-13 03:24:30 +0700
+
+
+Started GET "/assets/friend.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-13 03:24:30 +0700
+
+
+Started GET "/assets/messages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-13 03:24:30 +0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-13 03:24:30 +0700
+
+
+Started GET "/assets/user.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-13 03:24:30 +0700
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-13 03:24:30 +0700
+
+
+Started GET "/assets/application.self-a20b78c0f24df8542ae2ec1ad57c95fcb44336e42253f7117d91378b8b8d517a.js?body=1" for ::1 at 2015-12-13 03:24:30 +0700
+
+
+Started GET "/assets/bg-8510482a5d6dfffce955493c78eb741f2293ed14fe72f7782aa7eb45b95373e0.jpg" for ::1 at 2015-12-13 03:24:30 +0700
+
+
+Started GET "/messages/new" for ::1 at 2015-12-13 03:24:40 +0700
+Processing by MessagesController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  Rendered shared/_chatting_header.html.erb (0.2ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users"."id" = "friendships"."friend_id" WHERE "friendships"."user_id" = $1[0m  [["user_id", 3]]
+  Rendered messages/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 62ms (Views: 60.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/friend/index" for ::1 at 2015-12-13 03:24:42 +0700
+Processing by FriendController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users"."id" = "friendships"."friend_id" WHERE "friendships"."user_id" = $1[0m  [["user_id", 3]]
+  Rendered shared/_chatting_header.html.erb (0.2ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE ("users"."id" NOT IN (1, 2, 3))
+  Rendered friend/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 113ms (Views: 110.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/logout" for ::1 at 2015-12-13 03:24:44 +0700
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-12-13 03:24:44 +0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 55ms (Views: 55.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2015-12-13 03:24:45 +0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/_form.html.erb (1.1ms)
+  Rendered sessions/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 114ms (Views: 114.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2015-12-13 03:24:48 +0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"URte9QTvABXhS/Y+qJIgxAncevxVcT+d4SY7kdXp2dxZ0sfylJkjjxNA+x1DrsNh7iNm/W7OwvHWTkaljoP/cA==", "user"=>{"email"=>"a@a.com", "password"=>"[FILTERED]"}, "commit"=>"Login"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1[0m  [["email", "a@a.com"]]
+Redirected to http://localhost:3000/messages
+Completed 302 Found in 66ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/messages" for ::1 at 2015-12-13 03:24:48 +0700
+Processing by MessagesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered shared/_chatting_header.html.erb (0.2ms)
+  [1m[36mMessage Load (0.4ms)[0m  [1mSELECT "messages".* FROM "messages" INNER JOIN "messages_users" ON "messages"."id" = "messages_users"."message_id" WHERE "messages_users"."user_id" = $1  ORDER BY "messages"."unread" DESC, "messages"."created_at" DESC[0m  [["user_id", 1]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  Rendered messages/_messages.html.erb (2.5ms)
+  Rendered messages/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 62ms (Views: 59.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2015-12-13 03:24:53 +0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 61ms (Views: 60.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/logout" for ::1 at 2015-12-13 03:24:54 +0700
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-12-13 03:24:54 +0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 107ms (Views: 106.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2015-12-13 03:24:56 +0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/_form.html.erb (0.7ms)
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 60ms (Views: 59.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2015-12-13 03:24:59 +0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WdiVYUIGpZpg7VHVIiARFE8Cex5/N/L4CDomCMCFRqBREQxm0nCGAJLmXPbJHPKxqP1nH0SID5Q/Uls8m+9gDA==", "user"=>{"email"=>"b@b.com", "password"=>"[FILTERED]"}, "commit"=>"Login"}
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1  [["email", "b@b.com"]]
+Redirected to http://localhost:3000/messages
+Completed 302 Found in 65ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/messages" for ::1 at 2015-12-13 03:24:59 +0700
+Processing by MessagesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered shared/_chatting_header.html.erb (0.2ms)
+  [1m[35mMessage Load (0.4ms)[0m  SELECT "messages".* FROM "messages" INNER JOIN "messages_users" ON "messages"."id" = "messages_users"."message_id" WHERE "messages_users"."user_id" = $1  ORDER BY "messages"."unread" DESC, "messages"."created_at" DESC  [["user_id", 2]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  Rendered messages/_messages.html.erb (1.7ms)
+  Rendered messages/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 116ms (Views: 113.7ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/messages/unread" for ::1 at 2015-12-13 03:25:00 +0700
+Processing by MessagesController#unread as JSON
+  Parameters: {"{\"id\":1}"=>nil}
+  [1m[35mMessage Load (0.2ms)[0m  SELECT  "messages".* FROM "messages" WHERE "messages"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "messages" SET "unread" = $1, "read_time" = $2, "updated_at" = $3 WHERE "messages"."id" = $4  [["unread", "f"], ["read_time", "2015-12-12 20:25:00.424403"], ["updated_at", "2015-12-12 20:25:00.425158"], ["id", 1]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/messages/sent" for ::1 at 2015-12-13 03:25:03 +0700
+Processing by MessagesController#sent as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered shared/_chatting_header.html.erb (0.2ms)
+  [1m[36mMessage Load (0.3ms)[0m  [1mSELECT "messages".* FROM "messages" WHERE "messages"."sender_id" = $1  ORDER BY "messages"."unread" DESC, "messages"."created_at" DESC[0m  [["sender_id", 2]]
+  Rendered messages/_messages.html.erb (1.5ms)
+  Rendered messages/sent.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 62ms (Views: 60.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/friend/index" for ::1 at 2015-12-13 03:25:04 +0700
+Processing by FriendController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users"."id" = "friendships"."friend_id" WHERE "friendships"."user_id" = $1[0m  [["user_id", 2]]
+  Rendered shared/_chatting_header.html.erb (0.2ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE ("users"."id" != 2)
+  Rendered friend/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 118ms (Views: 116.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/messages/new" for ::1 at 2015-12-13 03:25:05 +0700
+Processing by MessagesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered shared/_chatting_header.html.erb (0.2ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" INNER JOIN "friendships" ON "users"."id" = "friendships"."friend_id" WHERE "friendships"."user_id" = $1  [["user_id", 2]]
+  Rendered messages/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 63ms (Views: 61.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/auth/facebook/callback?code=AQAI7WQWlx91GNQg-OL8pR1vFtbEsayeGgQlBJNyuSzDwJ6r7xCARDHwFIkTzR_P9W_5KJ14dEDxfnu465mor6qdh5BFIGQTXhcEximBcVgdk3Yc7S7K1ToEbGO5drLiMhDYnv5N0iRET0WcmSK-9hFjOYd9qHBQg3YMKzmSEAJrG4RjbnSR9fWys81spR6nZkqZ4gVCsZ68VMVT61aU4KaFaW7-iDEltSnLdZ5ocEmitybadwV4uKYQDJCxE5KXBKcHIb_pAw8FT_wur0u1zjCeYLA56sysXHMrSLhjFKBoeBgDIvP2qhrwLaNkL1QgQY5VeEFyodsC-fsE084MZsyZ" for ::1 at 2015-12-13 03:25:19 +0700
+(facebook) Callback phase initiated.
+(facebook) Authentication failure! invalid_credentials: OAuth2::Error, : 
+{"error":{"message":"Invalid redirect_uri: URL \u0111\u00e3 cho kh\u00f4ng \u0111\u01b0\u1ee3c c\u1ea5u h\u00ecnh \u1ee9ng d\u1ee5ng cho ph\u00e9p","type":"OAuthException","code":191,"fbtrace_id":"HMWtgyTwM3z"}}
+
+OAuth2::Error (: 
+{"error":{"message":"Invalid redirect_uri: URL \u0111\u00e3 cho kh\u00f4ng \u0111\u01b0\u1ee3c c\u1ea5u h\u00ecnh \u1ee9ng d\u1ee5ng cho ph\u00e9p","type":"OAuthException","code":191,"fbtrace_id":"HMWtgyTwM3z"}}):
+  oauth2 (0.8.1) lib/oauth2/client.rb:108:in `request'
+  oauth2 (0.8.1) lib/oauth2/client.rb:131:in `get_token'
+  oauth2 (0.8.1) lib/oauth2/strategy/auth_code.rb:29:in `get_token'
+  omniauth-oauth2 (1.0.3) lib/omniauth/strategies/oauth2.rb:87:in `build_access_token'
+  omniauth-facebook (1.4.0) lib/omniauth/strategies/facebook.rb:73:in `block in build_access_token'
+  omniauth-facebook (1.4.0) lib/omniauth/strategies/facebook.rb:166:in `with_authorization_code!'
+  omniauth-facebook (1.4.0) lib/omniauth/strategies/facebook.rb:73:in `build_access_token'
+  omniauth-oauth2 (1.0.3) lib/omniauth/strategies/oauth2.rb:62:in `callback_phase'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:227:in `callback_call'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:184:in `call!'
+  omniauth (1.2.2) lib/omniauth/strategy.rb:164:in `call'
+  omniauth (1.2.2) lib/omniauth/builder.rb:59:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.5) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (16.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (14.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (29.6ms)
