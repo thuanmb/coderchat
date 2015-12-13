@@ -6,7 +6,7 @@ Submitted by: **Thuan Bui**
 
 Time spent: **X** hours
 
-URL: **Insert your Heroku URL here**
+URL: **https://safe-headland-1201.herokuapp.com/**
 
 ## User Stories
 
@@ -45,7 +45,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![Video Walkthrough](http://i.imgur.com/link/to/your/gif/file.gif)
+![Video Walkthrough](/demo/coderchat_demo.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 

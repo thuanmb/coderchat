@@ -33767,3 +33767,1396 @@ Started GET "/assets/application.self-064ca9483de3183d360742ef3c193fb00dac74a96b
 
 
 Started GET "/assets/bg-8510482a5d6dfffce955493c78eb741f2293ed14fe72f7782aa7eb45b95373e0.jpg" for ::1 at 2015-12-13 21:20:37 +0700
+
+
+Started GET "/" for ::1 at 2015-12-13 21:34:38 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.6ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 4]]
+Completed 200 OK in 729ms (Views: 707.9ms | ActiveRecord: 5.5ms)
+
+
+Started GET "/assets/friend.self-5fcb76d203bb2b8afe85f681f6c4915b387066718584c24b3fef191d9ee839ab.css?body=1" for ::1 at 2015-12-13 21:34:39 +0700
+
+
+Started GET "/assets/application.self-081c41babc242a8f825342059134c36eac5ad984feae1d02a9c17e6d9fe5f854.css?body=1" for ::1 at 2015-12-13 21:34:39 +0700
+
+
+Started GET "/assets/welcome.self-89fb085caac9978be461f844f8c8bfb5d5002dede3cada09e6bb50e2b9eff44b.css?body=1" for ::1 at 2015-12-13 21:34:39 +0700
+
+
+Started GET "/assets/user.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-12-13 21:34:39 +0700
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-12-13 21:34:39 +0700
+
+
+Started GET "/assets/messages.self-5c2f009cca1ad4fa57c230e2fdb5f493e48f174e6d318ec8f2f56ce8f93a797c.css?body=1" for ::1 at 2015-12-13 21:34:39 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-13 21:34:39 +0700
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-12-13 21:34:39 +0700
+
+
+Started GET "/assets/jquery.infinite-pages.self-afd06674b95a6a7b0bf1e568c2f9470bc852dd39668a22ec097cc7d424393d5a.js?body=1" for ::1 at 2015-12-13 21:34:39 +0700
+
+
+Started GET "/assets/bootstrap.self-fe486684af4771e52c8d79a0f9b92ff72ec8b3d21774a3f8d5251ccac2b5f828.js?body=1" for ::1 at 2015-12-13 21:34:39 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-13 21:34:39 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-13 21:34:39 +0700
+
+
+Started GET "/assets/bootstrap-notify.min.self-b5f7366157c64f1d775bb4c74a37e6806463d55b832621f1e195b2c00c7a99be.js?body=1" for ::1 at 2015-12-13 21:34:39 +0700
+
+
+Started GET "/assets/facebook.self-42422c8ea0fdd92310aba93920245d37ffefaac950745a95435b58bfa4ec0eec.js?body=1" for ::1 at 2015-12-13 21:34:39 +0700
+
+
+Started GET "/assets/friend.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-13 21:34:39 +0700
+
+
+Started GET "/assets/messages.self-443fa46d59bfc4c019b37f20ce925db0385f86fd5fa2ff449f7704267312caf9.js?body=1" for ::1 at 2015-12-13 21:34:39 +0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-13 21:34:39 +0700
+
+
+Started GET "/assets/user.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-13 21:34:39 +0700
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-13 21:34:39 +0700
+
+
+Started GET "/assets/application.self-064ca9483de3183d360742ef3c193fb00dac74a96bded6c046f25d2322a41370.js?body=1" for ::1 at 2015-12-13 21:34:39 +0700
+
+
+Started GET "/assets/bg-8510482a5d6dfffce955493c78eb741f2293ed14fe72f7782aa7eb45b95373e0.jpg" for ::1 at 2015-12-13 21:34:39 +0700
+
+
+Started GET "/signup" for ::1 at 2015-12-13 21:34:40 +0700
+Processing by UserController#new as HTML
+  Rendered user/_form.html.erb (26.8ms)
+  Rendered user/new.html.erb within layouts/application (89.6ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 4]]
+Completed 200 OK in 163ms (Views: 162.4ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/signup" for ::1 at 2015-12-13 21:34:49 +0700
+Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zYrICOE5DkPONV0CX3aGkDsPV8TpyEMAHU9y78Ly/WrFQ1EPcU8t2Tw+UCG0SmU13PBLxdJ3vmwqJw/bmZjbxg==", "user"=>{"email"=>"buimthuan@gmail.com", "name"=>"Thuan Bui", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign Up"}
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mUser Exists (0.7ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'buimthuan@gmail.com' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  ROLLBACK
+  Rendered user/_form.html.erb (1.3ms)
+  Rendered user/new.html.erb within layouts/application (2.2ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 4]]
+Completed 200 OK in 270ms (Views: 113.8ms | ActiveRecord: 1.6ms)
+
+
+Started POST "/signup" for ::1 at 2015-12-13 21:35:01 +0700
+Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AXOQ3itNgd+sH9oP+AIDV9HPD+a3G6yCu/4LRablbhIJugnZuzuiRV4U1ywTPuDyNjAT54ykUe6MlnZx/Y9Ivg==", "user"=>{"email"=>"e@e.com", "name"=>"E", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign Up"}
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT  1 AS one FROM "users" WHERE "users"."email" = 'e@e.com' LIMIT 1[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "users" ("email", "name", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["email", "e@e.com"], ["name", "E"], ["password_digest", "$2a$10$tn5aHjo4LjTqmdgHVsfWWOJCGVwIHscnFSJ6fLHc8.IonRLMEEqve"], ["created_at", "2015-12-13 14:35:01.501837"], ["updated_at", "2015-12-13 14:35:01.501837"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+[ActiveJob]   [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+[ActiveJob] [ActionMailer::DeliveryJob] [8d30f7a9-1bfa-4345-be5a-ae4d2d74b287] Performing ActionMailer::DeliveryJob from Inline(mailers) with arguments: "MessageMailer", "welcome_email", "deliver_now", gid://coderchat/User/5, "http://localhost:3000"
+[ActiveJob] [ActionMailer::DeliveryJob] [8d30f7a9-1bfa-4345-be5a-ae4d2d74b287]   Rendered message_mailer/welcome_email.html.erb within layouts/mailer (0.4ms)
+[ActiveJob] [ActionMailer::DeliveryJob] [8d30f7a9-1bfa-4345-be5a-ae4d2d74b287]   Rendered message_mailer/welcome_email.text.erb within layouts/mailer (0.3ms)
+[ActiveJob] [ActionMailer::DeliveryJob] [8d30f7a9-1bfa-4345-be5a-ae4d2d74b287] 
+MessageMailer#welcome_email: processed outbound mail in 411.6ms
+[ActiveJob] [ActionMailer::DeliveryJob] [8d30f7a9-1bfa-4345-be5a-ae4d2d74b287] 
+Sent mail to e@e.com (23.8ms)
+[ActiveJob] [ActionMailer::DeliveryJob] [8d30f7a9-1bfa-4345-be5a-ae4d2d74b287] Date: Sun, 13 Dec 2015 21:35:01 +0700
+From: coderchat@example.com
+To: e@e.com
+Message-ID: <566d8215f33f9_143353fc0228032bc86150@thuanbui.local.mail>
+Subject: Welcome to Coder Chat
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_566d8215eed78_143353fc0228032bc8602b";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_566d8215eed78_143353fc0228032bc8602b
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Welcome to example.com, E
+===============================================
+ 
+You have successfully signed up to example.com,
+your username is: e@e.com.
+ 
+To login to the site, just follow this link: http://localhost:3000/login.
+ 
+Thanks for joining and have a great day!
+
+----==_mimepart_566d8215eed78_143353fc0228032bc8602b
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to CoderChat.com, E</h1>
+    <p>
+      You have successfully signed up to example.com,
+      your username is: e@e.com.<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: http://localhost:3000/login.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+----==_mimepart_566d8215eed78_143353fc0228032bc8602b--
+
+[ActiveJob] [ActionMailer::DeliveryJob] [8d30f7a9-1bfa-4345-be5a-ae4d2d74b287] Performed ActionMailer::DeliveryJob from Inline(mailers) in 437.54ms
+[ActiveJob] Enqueued ActionMailer::DeliveryJob (Job ID: 8d30f7a9-1bfa-4345-be5a-ae4d2d74b287) to Inline(mailers) with arguments: "MessageMailer", "welcome_email", "deliver_now", gid://coderchat/User/5, "http://localhost:3000"
+Redirected to http://localhost:3000/messages
+Completed 302 Found in 573ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/messages" for ::1 at 2015-12-13 21:35:02 +0700
+Processing by MessagesController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  Rendered shared/_chatting_header.html.erb (0.8ms)
+  [1m[35mMessage Load (0.8ms)[0m  SELECT  "messages".* FROM "messages" INNER JOIN "messages_users" ON "messages"."id" = "messages_users"."message_id" WHERE "messages_users"."user_id" = $1  ORDER BY "messages"."unread" DESC, "messages"."created_at" DESC LIMIT 5 OFFSET 0  [["user_id", 5]]
+  Rendered messages/_messages.html.erb (4.5ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "messages" INNER JOIN "messages_users" ON "messages"."id" = "messages_users"."message_id" WHERE "messages_users"."user_id" = $1[0m  [["user_id", 5]]
+  Rendered messages/_message_container.html.erb (9.3ms)
+  Rendered messages/index.html.erb within layouts/application (15.1ms)
+Completed 200 OK in 193ms (Views: 121.2ms | ActiveRecord: 3.5ms)
+  [1m[36m (125.4ms)[0m  [1mDROP DATABASE IF EXISTS "coderchat_development"[0m
+  [1m[35m (121.3ms)[0m  DROP DATABASE IF EXISTS "coderchat_test"
+  [1m[36m (541.7ms)[0m  [1mCREATE DATABASE "coderchat_development" ENCODING = 'unicode'[0m
+  [1m[35m (421.0ms)[0m  CREATE DATABASE "coderchat_test" ENCODING = 'unicode'
+  [1m[36mSQL (1.6ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (6.1ms)[0m  CREATE TABLE "friendships" ("user_id" integer, "friend_id" integer) 
+  [1m[36m (11.2ms)[0m  [1mCREATE TABLE "messages" ("id" serial primary key, "content" text, "unread" boolean, "sender_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "read_time" timestamp, "images" text) [0m
+  [1m[35m (1.9ms)[0m  CREATE  INDEX  "index_messages_on_sender_id" ON "messages" USING btree ("sender_id")
+  [1m[36m (1.7ms)[0m  [1mCREATE TABLE "messages_users" ("user_id" integer, "message_id" integer) [0m
+  [1m[35m (1.6ms)[0m  CREATE  INDEX  "index_messages_users_on_message_id" ON "messages_users" USING btree ("message_id")
+  [1m[36m (1.5ms)[0m  [1mCREATE  INDEX  "index_messages_users_on_user_id" ON "messages_users" USING btree ("user_id")[0m
+  [1m[35m (5.1ms)[0m  CREATE TABLE "users" ("id" serial primary key, "email" character varying, "name" character varying, "password_digest" character varying, "image_url" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "uid" character varying, "oauth_token" character varying, "oauth_expires_at" timestamp) 
+  [1m[36m (2.7ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL) [0m
+  [1m[35m (1.6ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (0.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20151212192714')
+  [1m[36m (1.0ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20151211075555')[0m
+  [1m[35m (0.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20151212040111')
+  [1m[36m (0.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20151212125229')[0m
+  [1m[35m (0.2ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20151212172523')
+  [1m[36mSQL (0.3ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (2.2ms)[0m  CREATE TABLE "friendships" ("user_id" integer, "friend_id" integer) 
+  [1m[36m (6.0ms)[0m  [1mCREATE TABLE "messages" ("id" serial primary key, "content" text, "unread" boolean, "sender_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "read_time" timestamp, "images" text) [0m
+  [1m[35m (1.9ms)[0m  CREATE  INDEX  "index_messages_on_sender_id" ON "messages" USING btree ("sender_id")
+  [1m[36m (1.3ms)[0m  [1mCREATE TABLE "messages_users" ("user_id" integer, "message_id" integer) [0m
+  [1m[35m (1.5ms)[0m  CREATE  INDEX  "index_messages_users_on_message_id" ON "messages_users" USING btree ("message_id")
+  [1m[36m (1.5ms)[0m  [1mCREATE  INDEX  "index_messages_users_on_user_id" ON "messages_users" USING btree ("user_id")[0m
+  [1m[35m (5.5ms)[0m  CREATE TABLE "users" ("id" serial primary key, "email" character varying, "name" character varying, "password_digest" character varying, "image_url" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, "uid" character varying, "oauth_token" character varying, "oauth_expires_at" timestamp) 
+  [1m[36m (3.2ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL) [0m
+  [1m[35m (2.1ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (0.4ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20151212192714')
+  [1m[36m (0.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20151211075555')[0m
+  [1m[35m (0.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20151212040111')
+  [1m[36m (0.3ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20151212125229')[0m
+  [1m[35m (0.2ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20151212172523')
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for ::1 at 2015-12-13 22:18:52 +0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.3ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 5]]
+Completed 500 Internal Server Error in 734ms (ActiveRecord: 4.4ms)
+
+ActiveRecord::RecordNotFound (Couldn't find User with 'id'=5):
+  app/controllers/application_controller.rb:11:in `current_user'
+  app/controllers/application_controller.rb:15:in `signed_in?'
+  app/views/layouts/application.html.erb:19:in `_app_views_layouts_application_html_erb___3410969110703768689_70266477762620'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (17.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (62.2ms)
+
+
+Started GET "/" for ::1 at 2015-12-13 22:19:34 +0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 119ms (Views: 118.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/friend.self-5fcb76d203bb2b8afe85f681f6c4915b387066718584c24b3fef191d9ee839ab.css?body=1" for ::1 at 2015-12-13 22:19:34 +0700
+
+
+Started GET "/assets/user.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-12-13 22:19:34 +0700
+
+
+Started GET "/assets/messages.self-5c2f009cca1ad4fa57c230e2fdb5f493e48f174e6d318ec8f2f56ce8f93a797c.css?body=1" for ::1 at 2015-12-13 22:19:34 +0700
+
+
+Started GET "/assets/welcome.self-89fb085caac9978be461f844f8c8bfb5d5002dede3cada09e6bb50e2b9eff44b.css?body=1" for ::1 at 2015-12-13 22:19:34 +0700
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-12-13 22:19:34 +0700
+
+
+Started GET "/assets/application.self-081c41babc242a8f825342059134c36eac5ad984feae1d02a9c17e6d9fe5f854.css?body=1" for ::1 at 2015-12-13 22:19:34 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-13 22:19:34 +0700
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-12-13 22:19:34 +0700
+
+
+Started GET "/assets/jquery.infinite-pages.self-afd06674b95a6a7b0bf1e568c2f9470bc852dd39668a22ec097cc7d424393d5a.js?body=1" for ::1 at 2015-12-13 22:19:34 +0700
+
+
+Started GET "/assets/bootstrap.self-fe486684af4771e52c8d79a0f9b92ff72ec8b3d21774a3f8d5251ccac2b5f828.js?body=1" for ::1 at 2015-12-13 22:19:34 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-13 22:19:34 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-13 22:19:34 +0700
+
+
+Started GET "/assets/bootstrap-notify.min.self-b5f7366157c64f1d775bb4c74a37e6806463d55b832621f1e195b2c00c7a99be.js?body=1" for ::1 at 2015-12-13 22:19:34 +0700
+
+
+Started GET "/assets/facebook.self-42422c8ea0fdd92310aba93920245d37ffefaac950745a95435b58bfa4ec0eec.js?body=1" for ::1 at 2015-12-13 22:19:34 +0700
+
+
+Started GET "/assets/friend.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-13 22:19:34 +0700
+
+
+Started GET "/assets/messages.self-443fa46d59bfc4c019b37f20ce925db0385f86fd5fa2ff449f7704267312caf9.js?body=1" for ::1 at 2015-12-13 22:19:34 +0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-13 22:19:34 +0700
+
+
+Started GET "/assets/user.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-13 22:19:34 +0700
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-13 22:19:34 +0700
+
+
+Started GET "/assets/application.self-064ca9483de3183d360742ef3c193fb00dac74a96bded6c046f25d2322a41370.js?body=1" for ::1 at 2015-12-13 22:19:34 +0700
+
+
+Started GET "/assets/bg-8510482a5d6dfffce955493c78eb741f2293ed14fe72f7782aa7eb45b95373e0.jpg" for ::1 at 2015-12-13 22:19:34 +0700
+
+
+Started GET "/" for ::1 at 2015-12-13 22:20:35 +0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 2050ms (Views: 2050.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/friend.self-5fcb76d203bb2b8afe85f681f6c4915b387066718584c24b3fef191d9ee839ab.css?body=1" for ::1 at 2015-12-13 22:20:37 +0700
+
+
+Started GET "/assets/messages.self-414fa6b545f4dc1dd428f64d91d372b7b8e69d864c14fbeddb57763fa406bccc.css?body=1" for ::1 at 2015-12-13 22:20:37 +0700
+
+
+Started GET "/assets/application.self-dfb8e157eee57e10ee06812348643ca6d68f9f68b7aac0f48e5151f63355bd99.css?body=1" for ::1 at 2015-12-13 22:20:37 +0700
+
+
+Started GET "/assets/sessions.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-12-13 22:20:37 +0700
+
+
+Started GET "/assets/user.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-12-13 22:20:37 +0700
+
+
+Started GET "/assets/welcome.self-89fb085caac9978be461f844f8c8bfb5d5002dede3cada09e6bb50e2b9eff44b.css?body=1" for ::1 at 2015-12-13 22:20:37 +0700
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for ::1 at 2015-12-13 22:20:37 +0700
+
+
+Started GET "/assets/jquery.turbolinks.self-176b9819f30444d441e820bbccd3264fe57753aeafd54dec732b0dbc77129a2a.js?body=1" for ::1 at 2015-12-13 22:20:37 +0700
+
+
+Started GET "/assets/jquery.infinite-pages.self-afd06674b95a6a7b0bf1e568c2f9470bc852dd39668a22ec097cc7d424393d5a.js?body=1" for ::1 at 2015-12-13 22:20:37 +0700
+
+
+Started GET "/assets/bootstrap.self-fe486684af4771e52c8d79a0f9b92ff72ec8b3d21774a3f8d5251ccac2b5f828.js?body=1" for ::1 at 2015-12-13 22:20:37 +0700
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2015-12-13 22:20:37 +0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-12-13 22:20:37 +0700
+
+
+Started GET "/assets/bootstrap-notify.min.self-b5f7366157c64f1d775bb4c74a37e6806463d55b832621f1e195b2c00c7a99be.js?body=1" for ::1 at 2015-12-13 22:20:37 +0700
+
+
+Started GET "/assets/facebook.self-42422c8ea0fdd92310aba93920245d37ffefaac950745a95435b58bfa4ec0eec.js?body=1" for ::1 at 2015-12-13 22:20:37 +0700
+
+
+Started GET "/assets/friend.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-13 22:20:37 +0700
+
+
+Started GET "/assets/messages.self-443fa46d59bfc4c019b37f20ce925db0385f86fd5fa2ff449f7704267312caf9.js?body=1" for ::1 at 2015-12-13 22:20:37 +0700
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-13 22:20:37 +0700
+
+
+Started GET "/assets/user.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-13 22:20:37 +0700
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-12-13 22:20:37 +0700
+
+
+Started GET "/assets/application.self-064ca9483de3183d360742ef3c193fb00dac74a96bded6c046f25d2322a41370.js?body=1" for ::1 at 2015-12-13 22:20:37 +0700
+
+
+Started GET "/assets/bg-8510482a5d6dfffce955493c78eb741f2293ed14fe72f7782aa7eb45b95373e0.jpg" for ::1 at 2015-12-13 22:20:37 +0700
+
+
+Started GET "/signup" for ::1 at 2015-12-13 22:21:26 +0700
+Processing by UserController#new as HTML
+  Rendered user/_form.html.erb (29.0ms)
+  Rendered user/new.html.erb within layouts/application (30.9ms)
+Completed 200 OK in 151ms (Views: 150.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/signup" for ::1 at 2015-12-13 22:21:32 +0700
+Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5xXE62y2HmbYI2Uv2y1pdgETLrFLOB4y+bqiVuf48Ou2wayZiHzLSkJWC0OblM9p+VF7bJM+h8jUhi+ZSVKHeQ==", "user"=>{"email"=>"a@a.com", "name"=>"A", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign Up"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.7ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'a@a.com' LIMIT 1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "users" ("email", "name", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["email", "a@a.com"], ["name", "A"], ["password_digest", "$2a$10$IN/FCm6MAxRmWpmG7Lbs5.1Zrbx7cAKkcTUr7f2RBjB/uKlm02k6e"], ["created_at", "2015-12-13 15:21:32.990663"], ["updated_at", "2015-12-13 15:21:32.990663"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+[ActiveJob]   [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+[ActiveJob] [ActionMailer::DeliveryJob] [a7d8f6ff-8848-4c3b-a339-d1a014d411ac] Performing ActionMailer::DeliveryJob from Inline(mailers) with arguments: "MessageMailer", "welcome_email", "deliver_now", gid://coderchat/User/1, "http://localhost:3000"
+[ActiveJob] [ActionMailer::DeliveryJob] [a7d8f6ff-8848-4c3b-a339-d1a014d411ac]   Rendered message_mailer/welcome_email.html.erb within layouts/mailer (0.4ms)
+[ActiveJob] [ActionMailer::DeliveryJob] [a7d8f6ff-8848-4c3b-a339-d1a014d411ac]   Rendered message_mailer/welcome_email.text.erb within layouts/mailer (0.2ms)
+[ActiveJob] [ActionMailer::DeliveryJob] [a7d8f6ff-8848-4c3b-a339-d1a014d411ac] 
+MessageMailer#welcome_email: processed outbound mail in 409.6ms
+[ActiveJob] [ActionMailer::DeliveryJob] [a7d8f6ff-8848-4c3b-a339-d1a014d411ac] 
+Sent mail to a@a.com (19.9ms)
+[ActiveJob] [ActionMailer::DeliveryJob] [a7d8f6ff-8848-4c3b-a339-d1a014d411ac] Date: Sun, 13 Dec 2015 22:21:33 +0700
+From: coderchat@example.com
+To: a@a.com
+Message-ID: <566d8cfd899ec_1467c3fe8317be3ec7800@thuanbui.local.mail>
+Subject: Welcome to Coder Chat
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_566d8cfd85a12_1467c3fe8317be3ec779ac";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_566d8cfd85a12_1467c3fe8317be3ec779ac
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Welcome to example.com, A
+===============================================
+ 
+You have successfully signed up to example.com,
+your username is: a@a.com.
+ 
+To login to the site, just follow this link: http://localhost:3000/login.
+ 
+Thanks for joining and have a great day!
+
+----==_mimepart_566d8cfd85a12_1467c3fe8317be3ec779ac
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to CoderChat.com, A</h1>
+    <p>
+      You have successfully signed up to example.com,
+      your username is: a@a.com.<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: http://localhost:3000/login.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+----==_mimepart_566d8cfd85a12_1467c3fe8317be3ec779ac--
+
+[ActiveJob] [ActionMailer::DeliveryJob] [a7d8f6ff-8848-4c3b-a339-d1a014d411ac] Performed ActionMailer::DeliveryJob from Inline(mailers) in 515.13ms
+[ActiveJob] Enqueued ActionMailer::DeliveryJob (Job ID: a7d8f6ff-8848-4c3b-a339-d1a014d411ac) to Inline(mailers) with arguments: "MessageMailer", "welcome_email", "deliver_now", gid://coderchat/User/1, "http://localhost:3000"
+Redirected to http://localhost:3000/messages
+Completed 302 Found in 656ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/messages" for ::1 at 2015-12-13 22:21:33 +0700
+Processing by MessagesController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered shared/_chatting_header.html.erb (0.9ms)
+  [1m[36mMessage Load (1.1ms)[0m  [1mSELECT  "messages".* FROM "messages" INNER JOIN "messages_users" ON "messages"."id" = "messages_users"."message_id" WHERE "messages_users"."user_id" = $1  ORDER BY "messages"."unread" DESC, "messages"."created_at" DESC LIMIT 5 OFFSET 0[0m  [["user_id", 1]]
+  Rendered messages/_messages.html.erb (5.7ms)
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "messages" INNER JOIN "messages_users" ON "messages"."id" = "messages_users"."message_id" WHERE "messages_users"."user_id" = $1  [["user_id", 1]]
+  Rendered messages/_message_container.html.erb (12.1ms)
+  Rendered messages/index.html.erb within layouts/application (16.9ms)
+Completed 200 OK in 219ms (Views: 148.7ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/" for ::1 at 2015-12-13 22:21:39 +0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 63ms (Views: 62.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/signup" for ::1 at 2015-12-13 22:21:41 +0700
+Processing by UserController#new as HTML
+  Rendered user/_form.html.erb (0.8ms)
+  Rendered user/new.html.erb within layouts/application (1.3ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 200 OK in 116ms (Views: 115.5ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/signup" for ::1 at 2015-12-13 22:21:47 +0700
+Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YZnYrfOWFAaJoP6cULxirBmcqCbTABKzD294Ax5FBwAwTbDfF1zBKhPVkPAQBcSz4d79+wsGi0kiU/XMsO9wkg==", "user"=>{"email"=>"b@b.com", "name"=>"B", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign Up"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'b@b.com' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "users" ("email", "name", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["email", "b@b.com"], ["name", "B"], ["password_digest", "$2a$10$v5aZJqcpSPg8BKw36Ip34e5CIFzHTUFpytSdTj/M3GCEoCmZeQs.O"], ["created_at", "2015-12-13 15:21:47.513459"], ["updated_at", "2015-12-13 15:21:47.513459"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+[ActiveJob]   [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+[ActiveJob] [ActionMailer::DeliveryJob] [153db62b-f6e0-462e-b975-19085edcedd9] Performing ActionMailer::DeliveryJob from Inline(mailers) with arguments: "MessageMailer", "welcome_email", "deliver_now", gid://coderchat/User/2, "http://localhost:3000"
+[ActiveJob] [ActionMailer::DeliveryJob] [153db62b-f6e0-462e-b975-19085edcedd9]   Rendered message_mailer/welcome_email.html.erb within layouts/mailer (0.1ms)
+[ActiveJob] [ActionMailer::DeliveryJob] [153db62b-f6e0-462e-b975-19085edcedd9]   Rendered message_mailer/welcome_email.text.erb within layouts/mailer (0.0ms)
+[ActiveJob] [ActionMailer::DeliveryJob] [153db62b-f6e0-462e-b975-19085edcedd9] 
+MessageMailer#welcome_email: processed outbound mail in 8.1ms
+[ActiveJob] [ActionMailer::DeliveryJob] [153db62b-f6e0-462e-b975-19085edcedd9] 
+Sent mail to b@b.com (3.9ms)
+[ActiveJob] [ActionMailer::DeliveryJob] [153db62b-f6e0-462e-b975-19085edcedd9] Date: Sun, 13 Dec 2015 22:21:47 +0700
+From: coderchat@example.com
+To: b@b.com
+Message-ID: <566d8d0b81627_1467c3fe8317be3ec78275@thuanbui.local.mail>
+Subject: Welcome to Coder Chat
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_566d8d0b80889_1467c3fe8317be3ec781fa";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_566d8d0b80889_1467c3fe8317be3ec781fa
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Welcome to example.com, B
+===============================================
+ 
+You have successfully signed up to example.com,
+your username is: b@b.com.
+ 
+To login to the site, just follow this link: http://localhost:3000/login.
+ 
+Thanks for joining and have a great day!
+
+----==_mimepart_566d8d0b80889_1467c3fe8317be3ec781fa
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to CoderChat.com, B</h1>
+    <p>
+      You have successfully signed up to example.com,
+      your username is: b@b.com.<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: http://localhost:3000/login.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+----==_mimepart_566d8d0b80889_1467c3fe8317be3ec781fa--
+
+[ActiveJob] [ActionMailer::DeliveryJob] [153db62b-f6e0-462e-b975-19085edcedd9] Performed ActionMailer::DeliveryJob from Inline(mailers) in 13.39ms
+[ActiveJob] Enqueued ActionMailer::DeliveryJob (Job ID: 153db62b-f6e0-462e-b975-19085edcedd9) to Inline(mailers) with arguments: "MessageMailer", "welcome_email", "deliver_now", gid://coderchat/User/2, "http://localhost:3000"
+Redirected to http://localhost:3000/messages
+Completed 302 Found in 79ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/messages" for ::1 at 2015-12-13 22:21:47 +0700
+Processing by MessagesController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered shared/_chatting_header.html.erb (0.3ms)
+  [1m[36mMessage Load (0.4ms)[0m  [1mSELECT  "messages".* FROM "messages" INNER JOIN "messages_users" ON "messages"."id" = "messages_users"."message_id" WHERE "messages_users"."user_id" = $1  ORDER BY "messages"."unread" DESC, "messages"."created_at" DESC LIMIT 5 OFFSET 0[0m  [["user_id", 2]]
+  Rendered messages/_messages.html.erb (1.1ms)
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "messages" INNER JOIN "messages_users" ON "messages"."id" = "messages_users"."message_id" WHERE "messages_users"."user_id" = $1  [["user_id", 2]]
+  Rendered messages/_message_container.html.erb (2.5ms)
+  Rendered messages/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 125ms (Views: 122.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for ::1 at 2015-12-13 22:21:50 +0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+Completed 200 OK in 68ms (Views: 67.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/signup" for ::1 at 2015-12-13 22:21:51 +0700
+Processing by UserController#new as HTML
+  Rendered user/_form.html.erb (0.8ms)
+  Rendered user/new.html.erb within layouts/application (1.3ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+Completed 200 OK in 125ms (Views: 124.6ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/signup" for ::1 at 2015-12-13 22:21:59 +0700
+Processing by UserController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Aik9ukt5gU6OVRyMq+2qveopTi40mbOXjG2843+NOptT/VXIr7NUYhQgcuDrVAyiEmsb8+yfKm2hUTEs0SdNCQ==", "user"=>{"email"=>"c@c.com", "name"=>"C", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign Up"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT  1 AS one FROM "users" WHERE "users"."email" = 'c@c.com' LIMIT 1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "users" ("email", "name", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["email", "c@c.com"], ["name", "C"], ["password_digest", "$2a$10$y.JPIid5Zu1vtbDbiKTDxuddxO3630I8xD0zFDzwRwGOM8UUXC/N2"], ["created_at", "2015-12-13 15:21:59.601642"], ["updated_at", "2015-12-13 15:21:59.601642"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+[ActiveJob]   [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+[ActiveJob] [ActionMailer::DeliveryJob] [10943a29-5e77-40c7-81df-0723cc8b3803] Performing ActionMailer::DeliveryJob from Inline(mailers) with arguments: "MessageMailer", "welcome_email", "deliver_now", gid://coderchat/User/3, "http://localhost:3000"
+[ActiveJob] [ActionMailer::DeliveryJob] [10943a29-5e77-40c7-81df-0723cc8b3803]   Rendered message_mailer/welcome_email.html.erb within layouts/mailer (0.1ms)
+[ActiveJob] [ActionMailer::DeliveryJob] [10943a29-5e77-40c7-81df-0723cc8b3803]   Rendered message_mailer/welcome_email.text.erb within layouts/mailer (0.0ms)
+[ActiveJob] [ActionMailer::DeliveryJob] [10943a29-5e77-40c7-81df-0723cc8b3803] 
+MessageMailer#welcome_email: processed outbound mail in 9.7ms
+[ActiveJob] [ActionMailer::DeliveryJob] [10943a29-5e77-40c7-81df-0723cc8b3803] 
+Sent mail to c@c.com (5.2ms)
+[ActiveJob] [ActionMailer::DeliveryJob] [10943a29-5e77-40c7-81df-0723cc8b3803] Date: Sun, 13 Dec 2015 22:21:59 +0700
+From: coderchat@example.com
+To: c@c.com
+Message-ID: <566d8d1797940_1467c3fe8317be3ec784ae@thuanbui.local.mail>
+Subject: Welcome to Coder Chat
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_566d8d179693b_1467c3fe8317be3ec783eb";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_566d8d179693b_1467c3fe8317be3ec783eb
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Welcome to example.com, C
+===============================================
+ 
+You have successfully signed up to example.com,
+your username is: c@c.com.
+ 
+To login to the site, just follow this link: http://localhost:3000/login.
+ 
+Thanks for joining and have a great day!
+
+----==_mimepart_566d8d179693b_1467c3fe8317be3ec783eb
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to CoderChat.com, C</h1>
+    <p>
+      You have successfully signed up to example.com,
+      your username is: c@c.com.<br>
+    </p>
+    <p>
+      To login to the site, just follow this link: http://localhost:3000/login.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+  </body>
+</html>
+
+----==_mimepart_566d8d179693b_1467c3fe8317be3ec783eb--
+
+[ActiveJob] [ActionMailer::DeliveryJob] [10943a29-5e77-40c7-81df-0723cc8b3803] Performed ActionMailer::DeliveryJob from Inline(mailers) in 27.97ms
+[ActiveJob] Enqueued ActionMailer::DeliveryJob (Job ID: 10943a29-5e77-40c7-81df-0723cc8b3803) to Inline(mailers) with arguments: "MessageMailer", "welcome_email", "deliver_now", gid://coderchat/User/3, "http://localhost:3000"
+Redirected to http://localhost:3000/messages
+Completed 302 Found in 97ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/messages" for ::1 at 2015-12-13 22:21:59 +0700
+Processing by MessagesController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  Rendered shared/_chatting_header.html.erb (0.3ms)
+  [1m[36mMessage Load (0.4ms)[0m  [1mSELECT  "messages".* FROM "messages" INNER JOIN "messages_users" ON "messages"."id" = "messages_users"."message_id" WHERE "messages_users"."user_id" = $1  ORDER BY "messages"."unread" DESC, "messages"."created_at" DESC LIMIT 5 OFFSET 0[0m  [["user_id", 3]]
+  Rendered messages/_messages.html.erb (1.1ms)
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "messages" INNER JOIN "messages_users" ON "messages"."id" = "messages_users"."message_id" WHERE "messages_users"."user_id" = $1  [["user_id", 3]]
+  Rendered messages/_message_container.html.erb (2.5ms)
+  Rendered messages/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 127ms (Views: 124.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/friend/index" for ::1 at 2015-12-13 22:22:01 +0700
+Processing by FriendController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" INNER JOIN "friendships" ON "users"."id" = "friendships"."friend_id" WHERE "friendships"."user_id" = $1  [["user_id", 3]]
+  Rendered shared/_chatting_header.html.erb (0.9ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE ("users"."id" != 3)[0m
+  Rendered friend/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 79ms (Views: 72.4ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/friend/add?email=a%2540a.com" for ::1 at 2015-12-13 22:22:03 +0700
+Processing by FriendController#add as HTML
+  Parameters: {"email"=>"a%40a.com"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1[0m  [["email", "a@a.com"]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "friendships" ("user_id", "friend_id") VALUES ($1, $2)[0m  [["user_id", 3], ["friend_id", 1]]
+  [1m[35m (0.2ms)[0m  COMMIT
+Redirected to http://localhost:3000/friend/index
+Completed 302 Found in 13ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/friend/index" for ::1 at 2015-12-13 22:22:03 +0700
+Processing by FriendController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" INNER JOIN "friendships" ON "users"."id" = "friendships"."friend_id" WHERE "friendships"."user_id" = $1  [["user_id", 3]]
+  Rendered shared/_chatting_header.html.erb (0.2ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE ("users"."id" NOT IN (1, 3))[0m
+  Rendered friend/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 128ms (Views: 125.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/friend/add?email=b%2540b.com" for ::1 at 2015-12-13 22:22:04 +0700
+Processing by FriendController#add as HTML
+  Parameters: {"email"=>"b%40b.com"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1[0m  [["email", "b@b.com"]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "friendships" ("user_id", "friend_id") VALUES ($1, $2)[0m  [["user_id", 3], ["friend_id", 2]]
+  [1m[35m (0.8ms)[0m  COMMIT
+Redirected to http://localhost:3000/friend/index
+Completed 302 Found in 5ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/friend/index" for ::1 at 2015-12-13 22:22:04 +0700
+Processing by FriendController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" INNER JOIN "friendships" ON "users"."id" = "friendships"."friend_id" WHERE "friendships"."user_id" = $1  [["user_id", 3]]
+  Rendered shared/_chatting_header.html.erb (0.2ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE ("users"."id" NOT IN (1, 2, 3))[0m
+  Rendered friend/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 83ms (Views: 80.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/messages/new" for ::1 at 2015-12-13 22:22:07 +0700
+Processing by MessagesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  Rendered shared/_chatting_header.html.erb (0.4ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users"."id" = "friendships"."friend_id" WHERE "friendships"."user_id" = $1[0m  [["user_id", 3]]
+  Rendered messages/new.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 133ms (Views: 75.6ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/messages/send" for ::1 at 2015-12-13 22:22:24 +0700
+Processing by MessagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ngUlki8xJRZHjjPI8gXutj9I13JGEF2J1qaFgQYtKKnP0U3gy/vwOt37XaSyvEipxwqCr54WxHP7mghOqIdfOw==", "recipients"=>["a@a.com", "b@b.com"], "message"=>{"content"=>"Hi A and B", "images"=>[#<ActionDispatch::Http::UploadedFile:0x007fd061475070 @tempfile=#<Tempfile:/var/folders/m6/yw_5xq6s5t19gzrdvvt_w9h80000gp/T/RackMultipart20151213-83580-1hv7dhu.png>, @original_filename="Screen Shot 2015-12-10 at 2.23.31 PM.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"message[images][]\"; filename=\"Screen Shot 2015-12-10 at 2.23.31 PM.png\"\r\nContent-Type: image/png\r\n">, #<ActionDispatch::Http::UploadedFile:0x007fd061474df0 @tempfile=#<Tempfile:/var/folders/m6/yw_5xq6s5t19gzrdvvt_w9h80000gp/T/RackMultipart20151213-83580-urei31.png>, @original_filename="Screen Shot 2015-12-02 at 4.01.47 PM.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"message[images][]\"; filename=\"Screen Shot 2015-12-02 at 4.01.47 PM.png\"\r\nContent-Type: image/png\r\n">]}, "commit"=>"Send"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "messages" ("content", "images", "unread", "sender_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["content", "Hi A and B"], ["images", "[\"Screen_Shot_2015-12-10_at_2.23.31_PM.png\", \"Screen_Shot_2015-12-02_at_4.01.47_PM.png\"]"], ["unread", "t"], ["sender_id", 3], ["created_at", "2015-12-13 15:22:24.054707"], ["updated_at", "2015-12-13 15:22:24.054707"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = $1  [["email", "a@a.com"]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = $1[0m  [["email", "b@b.com"]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "messages_users" ("message_id", "user_id") VALUES ($1, $2)[0m  [["message_id", 1], ["user_id", 1]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "messages_users" ("message_id", "user_id") VALUES ($1, $2)  [["message_id", 1], ["user_id", 2]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+[ActiveJob]   [1m[35mMessage Load (0.2ms)[0m  SELECT  "messages".* FROM "messages" WHERE "messages"."id" = $1 LIMIT 1  [["id", 1]]
+[ActiveJob] [ActionMailer::DeliveryJob] [df57091a-eaa1-46ea-b64b-ec8e7709a1a1] Performing ActionMailer::DeliveryJob from Inline(mailers) with arguments: "MessageMailer", "sent_message", "deliver_now", gid://coderchat/Message/1, "http://localhost:3000"
+[ActiveJob] [ActionMailer::DeliveryJob] [df57091a-eaa1-46ea-b64b-ec8e7709a1a1]   [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+[ActiveJob] [ActionMailer::DeliveryJob] [df57091a-eaa1-46ea-b64b-ec8e7709a1a1]   [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" INNER JOIN "messages_users" ON "users"."id" = "messages_users"."user_id" WHERE "messages_users"."message_id" = $1  [["message_id", 1]]
+[ActiveJob] [ActionMailer::DeliveryJob] [df57091a-eaa1-46ea-b64b-ec8e7709a1a1]   Rendered message_mailer/sent_message.html.erb within layouts/mailer (0.4ms)
+[ActiveJob] [ActionMailer::DeliveryJob] [df57091a-eaa1-46ea-b64b-ec8e7709a1a1]   Rendered message_mailer/sent_message.text.erb within layouts/mailer (0.3ms)
+[ActiveJob] [ActionMailer::DeliveryJob] [df57091a-eaa1-46ea-b64b-ec8e7709a1a1]   Rendered message_mailer/sent_message.html.erb within layouts/mailer (0.3ms)
+[ActiveJob] [ActionMailer::DeliveryJob] [df57091a-eaa1-46ea-b64b-ec8e7709a1a1] 
+MessageMailer#sent_message: processed outbound mail in 20.7ms
+[ActiveJob] [ActionMailer::DeliveryJob] [df57091a-eaa1-46ea-b64b-ec8e7709a1a1] 
+Sent mail to b@b.com (4.6ms)
+[ActiveJob] [ActionMailer::DeliveryJob] [df57091a-eaa1-46ea-b64b-ec8e7709a1a1] Date: Sun, 13 Dec 2015 22:22:24 +0700
+From: coderchat@example.com
+To: b@b.com
+Message-ID: <566d8d3017a6f_1467c3fe8317be3ec786ef@thuanbui.local.mail>
+Subject: You have new messages from C
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_566d8d301500d_1467c3fe8317be3ec7856e
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+New message
+===============================================
+ 
+Hi A and B.
+Details: http://localhost:3000/messages?id=1 
+To reply: http://localhost:3000/messages/new?recipient=c@c.com.
+
+
+----==_mimepart_566d8d301500d_1467c3fe8317be3ec7856e
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>New message</h1>
+    <p>
+      Hi A and B
+    </p>
+    <p>
+      Details: http://localhost:3000/messages?id=1.
+    </p>
+    <p>
+      To reply: http://localhost:3000/messages/new?recipient=c@c.com.
+    </p>
+  </body>
+</html>
+  </body>
+</html>
+
+----==_mimepart_566d8d301500d_1467c3fe8317be3ec7856e
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>New message</h1>
+    <p>
+      Hi A and B
+    </p>
+    <p>
+      Details: http://localhost:3000/messages?id=1.
+    </p>
+    <p>
+      To reply: http://localhost:3000/messages/new?recipient=c@c.com.
+    </p>
+  </body>
+</html>
+  </body>
+</html>
+
+----==_mimepart_566d8d301500d_1467c3fe8317be3ec7856e--
+
+[ActiveJob] [ActionMailer::DeliveryJob] [df57091a-eaa1-46ea-b64b-ec8e7709a1a1] Performed ActionMailer::DeliveryJob from Inline(mailers) in 26.87ms
+[ActiveJob] Enqueued ActionMailer::DeliveryJob (Job ID: df57091a-eaa1-46ea-b64b-ec8e7709a1a1) to Inline(mailers) with arguments: "MessageMailer", "sent_message", "deliver_now", gid://coderchat/Message/1, "http://localhost:3000"
+Redirected to http://localhost:3000/messages/new
+Completed 302 Found in 54ms (ActiveRecord: 3.8ms)
+
+
+Started GET "/messages/new" for ::1 at 2015-12-13 22:22:24 +0700
+Processing by MessagesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  Rendered shared/_chatting_header.html.erb (0.3ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" INNER JOIN "friendships" ON "users"."id" = "friendships"."friend_id" WHERE "friendships"."user_id" = $1  [["user_id", 3]]
+  Rendered messages/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 119ms (Views: 117.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/messages/sent" for ::1 at 2015-12-13 22:22:27 +0700
+Processing by MessagesController#sent as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  Rendered shared/_chatting_header.html.erb (0.4ms)
+  [1m[35mMessage Load (0.3ms)[0m  SELECT  "messages".* FROM "messages" WHERE "messages"."sender_id" = $1  ORDER BY "messages"."unread" DESC, "messages"."created_at" DESC LIMIT 5 OFFSET 0  [["sender_id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" INNER JOIN "messages_users" ON "users"."id" = "messages_users"."user_id" WHERE "messages_users"."message_id" = $1  [["message_id", 1]]
+  Rendered messages/_messages.html.erb (3.9ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "messages" WHERE "messages"."sender_id" = $1[0m  [["sender_id", 3]]
+  Rendered messages/_message_container.html.erb (5.8ms)
+  Rendered messages/sent.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 75ms (Views: 71.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/logout" for ::1 at 2015-12-13 22:22:31 +0700
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-12-13 22:22:31 +0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 64ms (Views: 64.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2015-12-13 22:22:32 +0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/_form.html.erb (1.1ms)
+  Rendered sessions/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 125ms (Views: 124.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2015-12-13 22:22:33 +0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YdgPrqLSVMfZatI6svF5ZcTEQZHYbS4Rn2DIb4H7qLIwDGfcRhiB60MfvFbySN96PIYUTABrt+uyXEWgL1HfIA==", "user"=>{"email"=>"a@a.com", "password"=>"[FILTERED]"}, "commit"=>"Login"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1  [["email", "a@a.com"]]
+Redirected to http://localhost:3000/messages
+Completed 302 Found in 57ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/messages" for ::1 at 2015-12-13 22:22:33 +0700
+Processing by MessagesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered shared/_chatting_header.html.erb (0.3ms)
+  [1m[35mMessage Load (0.4ms)[0m  SELECT  "messages".* FROM "messages" INNER JOIN "messages_users" ON "messages"."id" = "messages_users"."message_id" WHERE "messages_users"."user_id" = $1  ORDER BY "messages"."unread" DESC, "messages"."created_at" DESC LIMIT 5 OFFSET 0  [["user_id", 1]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  Rendered messages/_messages.html.erb (2.3ms)
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "messages" INNER JOIN "messages_users" ON "messages"."id" = "messages_users"."message_id" WHERE "messages_users"."user_id" = $1  [["user_id", 1]]
+  Rendered messages/_message_container.html.erb (3.9ms)
+  Rendered messages/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 73ms (Views: 70.4ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/messages/unread" for ::1 at 2015-12-13 22:22:36 +0700
+Processing by MessagesController#unread as JSON
+  Parameters: {"{\"id\":1}"=>nil}
+  [1m[36mMessage Load (0.3ms)[0m  [1mSELECT  "messages".* FROM "messages" WHERE "messages"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mUPDATE "messages" SET "unread" = $1, "read_time" = $2, "updated_at" = $3 WHERE "messages"."id" = $4[0m  [["unread", "f"], ["read_time", "2015-12-13 15:22:36.956955"], ["updated_at", "2015-12-13 15:22:36.958871"], ["id", 1]]
+  [1m[35m (0.2ms)[0m  COMMIT
+Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/messages/unread" for ::1 at 2015-12-13 22:22:39 +0700
+Processing by MessagesController#unread as JSON
+  Parameters: {"{\"id\":1}"=>nil}
+  [1m[36mMessage Load (0.3ms)[0m  [1mSELECT  "messages".* FROM "messages" WHERE "messages"."id" = $1 LIMIT 1[0m  [["id", 1]]
+Completed 422 Unprocessable Entity in 1ms (Views: 0.1ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/messages/unread" for ::1 at 2015-12-13 22:22:40 +0700
+Processing by MessagesController#unread as JSON
+  Parameters: {"{\"id\":1}"=>nil}
+  [1m[35mMessage Load (0.2ms)[0m  SELECT  "messages".* FROM "messages" WHERE "messages"."id" = $1 LIMIT 1  [["id", 1]]
+Completed 422 Unprocessable Entity in 1ms (Views: 0.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/friend/index" for ::1 at 2015-12-13 22:22:41 +0700
+Processing by FriendController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" INNER JOIN "friendships" ON "users"."id" = "friendships"."friend_id" WHERE "friendships"."user_id" = $1  [["user_id", 1]]
+  Rendered shared/_chatting_header.html.erb (0.2ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE ("users"."id" != 1)[0m
+  Rendered friend/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 118ms (Views: 114.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/friend/add?email=c%2540c.com" for ::1 at 2015-12-13 22:22:43 +0700
+Processing by FriendController#add as HTML
+  Parameters: {"email"=>"c%40c.com"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1[0m  [["email", "c@c.com"]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "friendships" ("user_id", "friend_id") VALUES ($1, $2)[0m  [["user_id", 1], ["friend_id", 3]]
+  [1m[35m (0.7ms)[0m  COMMIT
+Redirected to http://localhost:3000/friend/index
+Completed 302 Found in 5ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/friend/index" for ::1 at 2015-12-13 22:22:43 +0700
+Processing by FriendController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" INNER JOIN "friendships" ON "users"."id" = "friendships"."friend_id" WHERE "friendships"."user_id" = $1  [["user_id", 1]]
+  Rendered shared/_chatting_header.html.erb (0.2ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE ("users"."id" NOT IN (3, 1))[0m
+  Rendered friend/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 66ms (Views: 63.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/messages/new" for ::1 at 2015-12-13 22:22:45 +0700
+Processing by MessagesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered shared/_chatting_header.html.erb (0.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users"."id" = "friendships"."friend_id" WHERE "friendships"."user_id" = $1[0m  [["user_id", 1]]
+  Rendered messages/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 131ms (Views: 129.6ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/messages/send" for ::1 at 2015-12-13 22:22:59 +0700
+Processing by MessagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EMR5lsAFeHKzh9ssf6SCCdhZP0B7w3iXEE0kcCPgzg1BEBHkJM+tXinytUA/HSQWIBtqnaPF4W09cam/jUq5nw==", "recipients"=>["c@c.com"], "message"=>{"content"=>"Hi C, nice to meet you!", "images"=>[#<ActionDispatch::Http::UploadedFile:0x007fd062e7c8b0 @tempfile=#<Tempfile:/var/folders/m6/yw_5xq6s5t19gzrdvvt_w9h80000gp/T/RackMultipart20151213-83580-1ihr09.png>, @original_filename="Screen Shot 2015-12-02 at 4.01.47 PM.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"message[images][]\"; filename=\"Screen Shot 2015-12-02 at 4.01.47 PM.png\"\r\nContent-Type: image/png\r\n">]}, "commit"=>"Send"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "messages" ("content", "images", "unread", "sender_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["content", "Hi C, nice to meet you!"], ["images", "[\"Screen_Shot_2015-12-02_at_4.01.47_PM.png\"]"], ["unread", "t"], ["sender_id", 1], ["created_at", "2015-12-13 15:22:59.802001"], ["updated_at", "2015-12-13 15:22:59.802001"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = $1  [["email", "c@c.com"]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "messages_users" ("message_id", "user_id") VALUES ($1, $2)  [["message_id", 2], ["user_id", 3]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+[ActiveJob]   [1m[35mMessage Load (0.3ms)[0m  SELECT  "messages".* FROM "messages" WHERE "messages"."id" = $1 LIMIT 1  [["id", 2]]
+[ActiveJob] [ActionMailer::DeliveryJob] [def0a354-69f3-4647-8ed6-48ce7f3e0cbc] Performing ActionMailer::DeliveryJob from Inline(mailers) with arguments: "MessageMailer", "sent_message", "deliver_now", gid://coderchat/Message/2, "http://localhost:3000"
+[ActiveJob] [ActionMailer::DeliveryJob] [def0a354-69f3-4647-8ed6-48ce7f3e0cbc]   [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+[ActiveJob] [ActionMailer::DeliveryJob] [def0a354-69f3-4647-8ed6-48ce7f3e0cbc]   [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" INNER JOIN "messages_users" ON "users"."id" = "messages_users"."user_id" WHERE "messages_users"."message_id" = $1  [["message_id", 2]]
+[ActiveJob] [ActionMailer::DeliveryJob] [def0a354-69f3-4647-8ed6-48ce7f3e0cbc]   Rendered message_mailer/sent_message.html.erb within layouts/mailer (0.1ms)
+[ActiveJob] [ActionMailer::DeliveryJob] [def0a354-69f3-4647-8ed6-48ce7f3e0cbc]   Rendered message_mailer/sent_message.text.erb within layouts/mailer (0.0ms)
+[ActiveJob] [ActionMailer::DeliveryJob] [def0a354-69f3-4647-8ed6-48ce7f3e0cbc] 
+MessageMailer#sent_message: processed outbound mail in 9.4ms
+[ActiveJob] [ActionMailer::DeliveryJob] [def0a354-69f3-4647-8ed6-48ce7f3e0cbc] 
+Sent mail to c@c.com (3.8ms)
+[ActiveJob] [ActionMailer::DeliveryJob] [def0a354-69f3-4647-8ed6-48ce7f3e0cbc] Date: Sun, 13 Dec 2015 22:22:59 +0700
+From: coderchat@example.com
+To: c@c.com
+Message-ID: <566d8d53c9ed6_1467c3fe83243b0c0788a8@thuanbui.local.mail>
+Subject: You have new messages from A
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_566d8d53c9272_1467c3fe83243b0c07879";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_566d8d53c9272_1467c3fe83243b0c07879
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+New message
+===============================================
+ 
+Hi C, nice to meet you!.
+Details: http://localhost:3000/messages?id=2 
+To reply: http://localhost:3000/messages/new?recipient=a@a.com.
+
+
+----==_mimepart_566d8d53c9272_1467c3fe83243b0c07879
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>New message</h1>
+    <p>
+      Hi C, nice to meet you!
+    </p>
+    <p>
+      Details: http://localhost:3000/messages?id=2.
+    </p>
+    <p>
+      To reply: http://localhost:3000/messages/new?recipient=a@a.com.
+    </p>
+  </body>
+</html>
+  </body>
+</html>
+
+----==_mimepart_566d8d53c9272_1467c3fe83243b0c07879--
+
+[ActiveJob] [ActionMailer::DeliveryJob] [def0a354-69f3-4647-8ed6-48ce7f3e0cbc] Performed ActionMailer::DeliveryJob from Inline(mailers) in 29.51ms
+[ActiveJob] Enqueued ActionMailer::DeliveryJob (Job ID: def0a354-69f3-4647-8ed6-48ce7f3e0cbc) to Inline(mailers) with arguments: "MessageMailer", "sent_message", "deliver_now", gid://coderchat/Message/2, "http://localhost:3000"
+Redirected to http://localhost:3000/messages/new
+Completed 302 Found in 50ms (ActiveRecord: 2.8ms)
+
+
+Started GET "/messages/new" for ::1 at 2015-12-13 22:22:59 +0700
+Processing by MessagesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered shared/_chatting_header.html.erb (0.2ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" INNER JOIN "friendships" ON "users"."id" = "friendships"."friend_id" WHERE "friendships"."user_id" = $1  [["user_id", 1]]
+  Rendered messages/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 116ms (Views: 114.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/messages/sent" for ::1 at 2015-12-13 22:23:04 +0700
+Processing by MessagesController#sent as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered shared/_chatting_header.html.erb (0.3ms)
+  [1m[35mMessage Load (0.3ms)[0m  SELECT  "messages".* FROM "messages" WHERE "messages"."sender_id" = $1  ORDER BY "messages"."unread" DESC, "messages"."created_at" DESC LIMIT 5 OFFSET 0  [["sender_id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" INNER JOIN "messages_users" ON "users"."id" = "messages_users"."user_id" WHERE "messages_users"."message_id" = $1  [["message_id", 2]]
+  Rendered messages/_messages.html.erb (2.7ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "messages" WHERE "messages"."sender_id" = $1[0m  [["sender_id", 1]]
+  Rendered messages/_message_container.html.erb (4.2ms)
+  Rendered messages/sent.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 77ms (Views: 75.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/logout" for ::1 at 2015-12-13 22:23:08 +0700
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-12-13 22:23:08 +0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 113ms (Views: 112.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2015-12-13 22:23:09 +0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/_form.html.erb (0.8ms)
+  Rendered sessions/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 65ms (Views: 64.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2015-12-13 22:23:12 +0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O7u1wBYbft9/kVv0zo1BVAHTkTLn36gOtaITU6yuHTtqb92y8tGr8+XkNZiONOdL+ZHE7z/ZMfSYnp6cAgRqqQ==", "user"=>{"email"=>"b@b.com", "password"=>"[FILTERED]"}, "commit"=>"Login"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1  [["email", "b@b.com"]]
+Redirected to http://localhost:3000/messages
+Completed 302 Found in 57ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/messages" for ::1 at 2015-12-13 22:23:12 +0700
+Processing by MessagesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered shared/_chatting_header.html.erb (0.2ms)
+  [1m[35mMessage Load (0.4ms)[0m  SELECT  "messages".* FROM "messages" INNER JOIN "messages_users" ON "messages"."id" = "messages_users"."message_id" WHERE "messages_users"."user_id" = $1  ORDER BY "messages"."unread" DESC, "messages"."created_at" DESC LIMIT 5 OFFSET 0  [["user_id", 2]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  Rendered messages/_messages.html.erb (2.2ms)
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "messages" INNER JOIN "messages_users" ON "messages"."id" = "messages_users"."message_id" WHERE "messages_users"."user_id" = $1  [["user_id", 2]]
+  Rendered messages/_message_container.html.erb (3.7ms)
+  Rendered messages/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 128ms (Views: 125.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/messages/new" for ::1 at 2015-12-13 22:23:23 +0700
+Processing by MessagesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered shared/_chatting_header.html.erb (0.2ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" INNER JOIN "friendships" ON "users"."id" = "friendships"."friend_id" WHERE "friendships"."user_id" = $1  [["user_id", 2]]
+  Rendered messages/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 66ms (Views: 64.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/friend/index" for ::1 at 2015-12-13 22:23:25 +0700
+Processing by FriendController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" INNER JOIN "friendships" ON "users"."id" = "friendships"."friend_id" WHERE "friendships"."user_id" = $1  [["user_id", 2]]
+  Rendered shared/_chatting_header.html.erb (0.2ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE ("users"."id" != 2)[0m
+  Rendered friend/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 120ms (Views: 118.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/friend/add?email=c%2540c.com" for ::1 at 2015-12-13 22:23:27 +0700
+Processing by FriendController#add as HTML
+  Parameters: {"email"=>"c%40c.com"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1[0m  [["email", "c@c.com"]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "friendships" ("user_id", "friend_id") VALUES ($1, $2)[0m  [["user_id", 2], ["friend_id", 3]]
+  [1m[35m (0.7ms)[0m  COMMIT
+Redirected to http://localhost:3000/friend/index
+Completed 302 Found in 5ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/friend/index" for ::1 at 2015-12-13 22:23:27 +0700
+Processing by FriendController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" INNER JOIN "friendships" ON "users"."id" = "friendships"."friend_id" WHERE "friendships"."user_id" = $1  [["user_id", 2]]
+  Rendered shared/_chatting_header.html.erb (0.3ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE ("users"."id" NOT IN (3, 2))[0m
+  Rendered friend/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 137ms (Views: 128.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/friend/add?email=a%2540a.com" for ::1 at 2015-12-13 22:23:27 +0700
+Processing by FriendController#add as HTML
+  Parameters: {"email"=>"a%40a.com"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1[0m  [["email", "a@a.com"]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "friendships" ("user_id", "friend_id") VALUES ($1, $2)[0m  [["user_id", 2], ["friend_id", 1]]
+  [1m[35m (0.7ms)[0m  COMMIT
+Redirected to http://localhost:3000/friend/index
+Completed 302 Found in 6ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/friend/index" for ::1 at 2015-12-13 22:23:27 +0700
+Processing by FriendController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" INNER JOIN "friendships" ON "users"."id" = "friendships"."friend_id" WHERE "friendships"."user_id" = $1  [["user_id", 2]]
+  Rendered shared/_chatting_header.html.erb (0.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE ("users"."id" NOT IN (1, 3, 2))[0m
+  Rendered friend/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 70ms (Views: 68.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/messages/new" for ::1 at 2015-12-13 22:23:28 +0700
+Processing by MessagesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered shared/_chatting_header.html.erb (0.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" INNER JOIN "friendships" ON "users"."id" = "friendships"."friend_id" WHERE "friendships"."user_id" = $1[0m  [["user_id", 2]]
+  Rendered messages/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 122ms (Views: 121.1ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/messages/send" for ::1 at 2015-12-13 22:23:39 +0700
+Processing by MessagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Q0YvXkUMOjV+lt8ZQXZmBft84Bfgy9biw/oC7QqSSq4SkkcsocbvGeTjsXUBz8AaAz61yjjNTxjuxo8ipDg9PA==", "recipients"=>["c@c.com"], "message"=>{"content"=>"Thanks C, nice to meet you!"}, "commit"=>"Send"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "messages" ("content", "unread", "sender_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["content", "Thanks C, nice to meet you!"], ["unread", "t"], ["sender_id", 2], ["created_at", "2015-12-13 15:23:39.318749"], ["updated_at", "2015-12-13 15:23:39.318749"]]
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = $1  [["email", "c@c.com"]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "messages_users" ("message_id", "user_id") VALUES ($1, $2)  [["message_id", 3], ["user_id", 3]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+[ActiveJob]   [1m[35mMessage Load (0.2ms)[0m  SELECT  "messages".* FROM "messages" WHERE "messages"."id" = $1 LIMIT 1  [["id", 3]]
+[ActiveJob] [ActionMailer::DeliveryJob] [42cb37d9-384e-4282-8b36-0d780947c971] Performing ActionMailer::DeliveryJob from Inline(mailers) with arguments: "MessageMailer", "sent_message", "deliver_now", gid://coderchat/Message/3, "http://localhost:3000"
+[ActiveJob] [ActionMailer::DeliveryJob] [42cb37d9-384e-4282-8b36-0d780947c971]   [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+[ActiveJob] [ActionMailer::DeliveryJob] [42cb37d9-384e-4282-8b36-0d780947c971]   [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" INNER JOIN "messages_users" ON "users"."id" = "messages_users"."user_id" WHERE "messages_users"."message_id" = $1  [["message_id", 3]]
+[ActiveJob] [ActionMailer::DeliveryJob] [42cb37d9-384e-4282-8b36-0d780947c971]   Rendered message_mailer/sent_message.html.erb within layouts/mailer (0.1ms)
+[ActiveJob] [ActionMailer::DeliveryJob] [42cb37d9-384e-4282-8b36-0d780947c971]   Rendered message_mailer/sent_message.text.erb within layouts/mailer (0.1ms)
+[ActiveJob] [ActionMailer::DeliveryJob] [42cb37d9-384e-4282-8b36-0d780947c971] 
+MessageMailer#sent_message: processed outbound mail in 26.5ms
+[ActiveJob] [ActionMailer::DeliveryJob] [42cb37d9-384e-4282-8b36-0d780947c971] 
+Sent mail to c@c.com (4.5ms)
+[ActiveJob] [ActionMailer::DeliveryJob] [42cb37d9-384e-4282-8b36-0d780947c971] Date: Sun, 13 Dec 2015 22:23:39 +0700
+From: coderchat@example.com
+To: c@c.com
+Message-ID: <566d8d7b58062_1467c3fe834c514887903@thuanbui.local.mail>
+Subject: You have new messages from B
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_566d8d7b5722e_1467c3fe834c514887892";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_566d8d7b5722e_1467c3fe834c514887892
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+New message
+===============================================
+ 
+Thanks C, nice to meet you!.
+Details: http://localhost:3000/messages?id=3 
+To reply: http://localhost:3000/messages/new?recipient=b@b.com.
+
+
+----==_mimepart_566d8d7b5722e_1467c3fe834c514887892
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <body>
+    <!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>New message</h1>
+    <p>
+      Thanks C, nice to meet you!
+    </p>
+    <p>
+      Details: http://localhost:3000/messages?id=3.
+    </p>
+    <p>
+      To reply: http://localhost:3000/messages/new?recipient=b@b.com.
+    </p>
+  </body>
+</html>
+  </body>
+</html>
+
+----==_mimepart_566d8d7b5722e_1467c3fe834c514887892--
+
+[ActiveJob] [ActionMailer::DeliveryJob] [42cb37d9-384e-4282-8b36-0d780947c971] Performed ActionMailer::DeliveryJob from Inline(mailers) in 32.45ms
+[ActiveJob] Enqueued ActionMailer::DeliveryJob (Job ID: 42cb37d9-384e-4282-8b36-0d780947c971) to Inline(mailers) with arguments: "MessageMailer", "sent_message", "deliver_now", gid://coderchat/Message/3, "http://localhost:3000"
+Redirected to http://localhost:3000/messages/new
+Completed 302 Found in 49ms (ActiveRecord: 4.5ms)
+
+
+Started GET "/messages/new" for ::1 at 2015-12-13 22:23:39 +0700
+Processing by MessagesController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered shared/_chatting_header.html.erb (0.2ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" INNER JOIN "friendships" ON "users"."id" = "friendships"."friend_id" WHERE "friendships"."user_id" = $1  [["user_id", 2]]
+  Rendered messages/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 64ms (Views: 62.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/messages/sent" for ::1 at 2015-12-13 22:23:41 +0700
+Processing by MessagesController#sent as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered shared/_chatting_header.html.erb (0.2ms)
+  [1m[35mMessage Load (0.2ms)[0m  SELECT  "messages".* FROM "messages" WHERE "messages"."sender_id" = $1  ORDER BY "messages"."unread" DESC, "messages"."created_at" DESC LIMIT 5 OFFSET 0  [["sender_id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" INNER JOIN "messages_users" ON "users"."id" = "messages_users"."user_id" WHERE "messages_users"."message_id" = $1  [["message_id", 3]]
+  Rendered messages/_messages.html.erb (2.3ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "messages" WHERE "messages"."sender_id" = $1[0m  [["sender_id", 2]]
+  Rendered messages/_message_container.html.erb (3.7ms)
+  Rendered messages/sent.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 119ms (Views: 116.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/logout" for ::1 at 2015-12-13 22:23:44 +0700
+Processing by SessionsController#destroy as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-12-13 22:23:44 +0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 68ms (Views: 68.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2015-12-13 22:23:48 +0700
+Processing by SessionsController#new as HTML
+  Rendered sessions/_form.html.erb (1.3ms)
+  Rendered sessions/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 70ms (Views: 69.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for ::1 at 2015-12-13 22:23:54 +0700
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mP53fseGVdr8AkP8kMb7I4OkgiK0Os0gCN+sNcXVLErJKh8MI0yA9mZ3LZDQf108e+bX/2w8VNol4yH6a39b2A==", "user"=>{"email"=>"c@c.com", "password"=>"[FILTERED]"}, "commit"=>"Login"}
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1  [["email", "c@c.com"]]
+Redirected to http://localhost:3000/messages
+Completed 302 Found in 56ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/messages" for ::1 at 2015-12-13 22:23:54 +0700
+Processing by MessagesController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  Rendered shared/_chatting_header.html.erb (0.2ms)
+  [1m[35mMessage Load (0.5ms)[0m  SELECT  "messages".* FROM "messages" INNER JOIN "messages_users" ON "messages"."id" = "messages_users"."message_id" WHERE "messages_users"."user_id" = $1  ORDER BY "messages"."unread" DESC, "messages"."created_at" DESC LIMIT 5 OFFSET 0  [["user_id", 3]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered messages/_messages.html.erb (2.5ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "messages" INNER JOIN "messages_users" ON "messages"."id" = "messages_users"."message_id" WHERE "messages_users"."user_id" = $1[0m  [["user_id", 3]]
+  Rendered messages/_message_container.html.erb (3.8ms)
+  Rendered messages/index.html.erb within layouts/application (30.6ms)
+Completed 200 OK in 150ms (Views: 147.4ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/messages/unread" for ::1 at 2015-12-13 22:23:58 +0700
+Processing by MessagesController#unread as JSON
+  Parameters: {"{\"id\":3}"=>nil}
+  [1m[35mMessage Load (0.2ms)[0m  SELECT  "messages".* FROM "messages" WHERE "messages"."id" = $1 LIMIT 1  [["id", 3]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "messages" SET "unread" = $1, "read_time" = $2, "updated_at" = $3 WHERE "messages"."id" = $4  [["unread", "f"], ["read_time", "2015-12-13 15:23:58.415343"], ["updated_at", "2015-12-13 15:23:58.416002"], ["id", 3]]
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/messages/unread" for ::1 at 2015-12-13 22:23:59 +0700
+Processing by MessagesController#unread as JSON
+  Parameters: {"{\"id\":2}"=>nil}
+  [1m[35mMessage Load (0.2ms)[0m  SELECT  "messages".* FROM "messages" WHERE "messages"."id" = $1 LIMIT 1  [["id", 2]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "messages" SET "unread" = $1, "read_time" = $2, "updated_at" = $3 WHERE "messages"."id" = $4  [["unread", "f"], ["read_time", "2015-12-13 15:23:59.930234"], ["updated_at", "2015-12-13 15:23:59.930889"], ["id", 2]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for ::1 at 2015-12-13 22:24:09 +0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 3]]
+Completed 200 OK in 88ms (Views: 87.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/messages" for ::1 at 2015-12-13 22:24:11 +0700
+Processing by MessagesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  Rendered shared/_chatting_header.html.erb (0.3ms)
+  [1m[35mMessage Load (0.3ms)[0m  SELECT  "messages".* FROM "messages" INNER JOIN "messages_users" ON "messages"."id" = "messages_users"."message_id" WHERE "messages_users"."user_id" = $1  ORDER BY "messages"."unread" DESC, "messages"."created_at" DESC LIMIT 5 OFFSET 0  [["user_id", 3]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered messages/_messages.html.erb (3.0ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "messages" INNER JOIN "messages_users" ON "messages"."id" = "messages_users"."message_id" WHERE "messages_users"."user_id" = $1[0m  [["user_id", 3]]
+  Rendered messages/_message_container.html.erb (4.4ms)
+  Rendered messages/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 121ms (Views: 118.5ms | ActiveRecord: 0.8ms)

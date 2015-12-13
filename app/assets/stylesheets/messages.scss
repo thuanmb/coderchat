@@ -38,3 +38,10 @@
     right: 0;
     z-index: 1;
 }
+
+.messages {
+
+    .content {
+        overflow-y: scroll;
+    }
+}
