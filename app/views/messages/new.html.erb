@@ -20,7 +20,29 @@
     <% end %>
 </div>
 
-<%= javascript_tag do%>
+<%= javascript_tag do %>
     $(".nav-masthead .nav-link.messages").addClass("active");
     $(".message-header .btn.new-message").addClass("active");
+
+    var users = <%= raw @message.users.to_json %>;
+
+    var isContainsUser = function(email) {
+        var result = false;
+        for (var index in users) {
+            if (users[index].email == email) {
+                result = true;
+                break;
+            }
+        }
+
+        return result;
+    };
+
+    $(".form-container select option").each(function (index, option) {
+        var $option = $(option);
+        var email = $option.val();
+        if (isContainsUser(email)) {
+            $option.attr("selected", true);
+        }
+    });
 <% end %>

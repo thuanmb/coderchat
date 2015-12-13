@@ -3,7 +3,12 @@ class MessagesController < ApplicationController
     require_login
     
     @readable = true;
-    @messages = get_message_per_page(current_user.messages.order(unread: :desc, created_at: :desc))
+    
+    if params[:id]
+      @messages = get_message_per_page(Message.where(id: params[:id]))
+    else
+      @messages = get_message_per_page(current_user.messages.order(unread: :desc, created_at: :desc))
+    end
   end
 
   def new
@@ -22,6 +27,9 @@ class MessagesController < ApplicationController
       
       if message.save
         message.users << recipients
+
+        MessageMailer.sent_message(message, get_root_path).deliver_later
+
         flash[:success] = 'Message sent!'
       else
         flash[:error] = message.errors.full_messages.join(', ')
@@ -61,6 +69,10 @@ class MessagesController < ApplicationController
     def init_message
       @message = Message.new
       @message.sender = current_user
+
+      if params[:recipient]
+        @message.users << User.find_by_email(params[:recipient])
+      end
     end
 
     def get_message_per_page(messages)

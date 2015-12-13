@@ -1,6 +1,6 @@
 // Append new data
 $("<%= escape_javascript render(:partial => 'messages', :object => @messages) %>")
-  .appendTo($(".message-container table"));
+  .appendTo($(".message-content"));
 
 // Update pagination link
 <% if @messages.last_page? %>

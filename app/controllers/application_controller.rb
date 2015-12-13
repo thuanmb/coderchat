@@ -28,4 +28,8 @@ class ApplicationController < ActionController::Base
     
     urls.map {|url| "#{baseUrl}/#{url}"}
   end
+
+  def get_root_path
+      "#{request.protocol}#{request.host_with_port}"
+    end
 end
