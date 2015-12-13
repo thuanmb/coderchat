@@ -1,0 +1,8 @@
+<div class="message-container container col-md-6 col-xs-12 col-md-offset-3">
+	<div class="message-content">
+		<%= render 'messages' %>	
+	</div>
+	<div class="pagination">
+		<%= link_to_next_page @messages, 'Next Page', remote: true %>
+	</div>
+</div>

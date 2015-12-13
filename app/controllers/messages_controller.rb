@@ -3,7 +3,7 @@ class MessagesController < ApplicationController
     require_login
     
     @readable = true;
-    @messages = current_user.messages.order(unread: :desc, created_at: :desc)
+    @messages = get_message_per_page(current_user.messages.order(unread: :desc, created_at: :desc))
   end
 
   def new
@@ -37,7 +37,7 @@ class MessagesController < ApplicationController
     require_login
 
     @readable = false;
-    @messages = @current_user.sent_messages.order(unread: :desc, created_at: :desc)
+    @messages = get_message_per_page(@current_user.sent_messages.order(unread: :desc, created_at: :desc))
   end
 
   def unread
@@ -61,5 +61,9 @@ class MessagesController < ApplicationController
     def init_message
       @message = Message.new
       @message.sender = current_user
+    end
+
+    def get_message_per_page(messages)
+      messages.page params[:page]
     end
 end

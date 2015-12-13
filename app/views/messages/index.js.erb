@@ -1,0 +1,10 @@
+// Append new data
+$("<%= escape_javascript render(:partial => 'messages', :object => @messages) %>")
+  .appendTo($(".message-content"));
+
+// Update pagination link
+<% if @messages.last_page? %>
+  $('.pagination').html("You've read all messages!");
+<% else %>
+  $('.pagination').html("<%=j link_to_next_page(@messages, 'Next Page', :remote => true) %>");
+<% end %>

@@ -37,6 +37,9 @@ gem 'jquery-turbolinks'
 gem 'carrierwave', github: 'carrierwaveuploader/carrierwave'
 gem 'omniauth'
 gem 'omniauth-facebook', '1.4.0'
+gem 'kaminari'
+gem 'jquery-infinite-pages'
+
 gem 'rails_12factor', group: 'production'
 
 group :development, :test do

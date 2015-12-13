@@ -30,3 +30,11 @@
         }
     }
 }
+
+.pagination {
+    position: fixed;
+    bottom: 53px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
