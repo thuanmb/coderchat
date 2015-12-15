@@ -1,13 +1,1 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
-
-one:
-  content: Hey B
-  unread: true
-  sender_id: 980190963
-  recipient_id: 980190964 
-
-two:
-  content: Hey C
-  unread: true
-  sender_id: 980190964
-  recipient_id: 980190965

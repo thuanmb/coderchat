@@ -6,7 +6,7 @@ class ApplicationController < ActionController::Base
   helper_method :current_user, :signed_in?, :require_login, :extract_urls
 
   def current_user
-    return nil if !session[:user_id]
+    return nil if !session[:user_id] || !User.where(id: session[:user_id]).presence
 
     @current_user ||= User.find(session[:user_id])
   end

@@ -5,7 +5,7 @@ class CreateMessages < ActiveRecord::Migration
       t.boolean :unread
       t.datetime :read_time
       t.text :images
-      t.references :sender, index: true, foreign_key: true
+      t.belongs_to :user, :foreign_key => 'sender', index: true
 
       t.timestamps null: false
     end

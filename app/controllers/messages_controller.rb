@@ -23,7 +23,7 @@ class MessagesController < ApplicationController
     sender = current_user
 
     if recipients.presence
-      message = Message.new(content: data[:content], images: data[:images], unread: true, sender_id: sender.id)
+      message = Message.new(content: data[:content], images: data[:images], unread: true, user_id: sender.id)
       
       if message.save
         message.users << recipients

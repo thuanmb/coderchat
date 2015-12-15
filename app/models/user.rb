@@ -1,6 +1,6 @@
 class User < ActiveRecord::Base
     has_and_belongs_to_many :messages
-    has_many :sent_messages, foreign_key: :sender_id, class_name: 'Message'
+    has_many :sent_messages, foreign_key: :user_id, class_name: 'Message'
     has_and_belongs_to_many :friends,
       class_name: 'User',
       foreign_key: 'user_id',
