@@ -28,7 +28,7 @@ class MessagesController < ApplicationController
       if message.save
         message.users << recipients
 
-        MessageMailer.sent_message(message, get_root_path).deliver_later
+        #MessageMailer.sent_message(message, get_root_path).deliver_later
 
         flash[:success] = 'Message sent!'
       else

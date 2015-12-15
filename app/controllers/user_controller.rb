@@ -11,7 +11,7 @@ class UserController < ApplicationController
         session[:user_id] = @user.id
         flash[:success] = "Welcome, #{@user.name}"
 
-        MessageMailer.welcome_email(@user, get_root_path).deliver_later
+        #MessageMailer.welcome_email(@user, get_root_path).deliver_later
 
         format.html {redirect_to messages_path }
       else
