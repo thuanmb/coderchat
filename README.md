@@ -4,7 +4,7 @@
 
 Submitted by: **Thuan Bui**
 
-Time spent: **X** hours
+Time spent: **20** hours
 
 URL: **https://safe-headland-1201.herokuapp.com/**
 
@@ -29,7 +29,7 @@ The following **optional** functionality is complete:
 * [x] User can have multiple recipients on one message. 
 * [x] User can log in with Facebook. 
 * [x] Use of the [kaminari gem](https://github.com/amatsuda/kaminari) and [jquery-infinite-pages gem](https://github.com/magoosh/jquery-infinite-pages) to implement Infinite Scroll.
-* [x] User gets an email when they receive a message, with a link to view the message.
+* [ ] User gets an email when they receive a message, with a link to view the message.
 * [ ] User gets an email when a message they have sent is read with the time at which the message was read.
 * [ ] User can send a message to the email address of a non-registered user. The recipient will receive an email with a link to sign up for the service, and after creating an account, will be able to view the sent message. 
 * [ ] User A can "block" User B. If User A blocks User B, they will not see messages from User B. User B will not know they have been blocked.
